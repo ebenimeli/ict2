@@ -1,0 +1,94 @@
+site_name: Artificial Intelligence, Programming and Robotics (I)
+use_directory_urls: false
+nav:
+- 'Artificial Intelligence':
+  - 'Introduction to AI':
+    - 'The Turing Test': 'contents/ai/the-turing-test.md'
+    - 'AI terms' : 'contents/ai/terms.md'
+  #  - 'Activity 1. The Turing Test': 'contents/ai/activity-turing.md'  
+  #- 'Sensors, typology and applications':
+  #  - 'Sensors': 'contents/ai/Sensors.md'
+  #  - 'Types of sensors': 'contents/ai/types-of-sensors.md'
+  #  - 'Applications': 'contents/ai/sensors-applications.md'
+  #- 'Initial techniques of AI: expert systems, neural networks and machine learning':
+  #  - 'Topic'
+  #- 'Automatic information processing':
+  #  - 'Topic'
+  #- 'Equity and inclusion in AI systems. Biases in AI': 'contents/ia/equity-inclusion.md'
+  #- 'Social and ethical implications of artificial intelligence':
+  #  - 'Topic'
+  #- 'Virtual reality techniques':
+  #  - 'Topic'
+#- 'Programming':
+#  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
+#  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
+#    - 'Item'
+#  - 'Pattern detection and reuse. Generalization':
+#    - 'Item'
+#  - 'Sustainability and inclusion as software design requirements':
+#    - 'Item'
+#  - 'Program flow control structures':
+#    - 'Item'
+#  - 'Variables, constants, conditions and operators':
+#    - 'Item'
+#  - 'Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
+#    - 'Item'
+#  - 'Mobile device application programming':
+#    - 'Item'
+#  - 'Software evaluation and maintenance':
+#    - 'Item'
+#  - 'Software licenses. Free software and proprietary software':
+#    - 'Item'
+#  - 'Controller card simulators':
+#    - 'Item'
+#  - 'Initiative, self-confidence and metacognition in the software development learning process':
+#    - 'Item'
+- 'Robotics':
+#  - 'Robot assembly':
+#    - 'Item'
+  - 'Introduction to Robotics':
+    - 'What is a robot?' : 'contents/robotics/robots.md'
+    - 'Robots and AI' : 'contents/robotics/robots_ai.md'
+    - 'Robots' : 'contents/robotics/crashcourse_robots.md'
+    - 'Robotics and AI' : 'contents/robotics/crashcourse_robotics_ai.md'
+    - 'How Engineering Robots Works' : 'contents/robotics/crashcourse_robots_engineering.md'
+  - 'Control of robotic systems':
+    - 'Introduction to mBlock' : 'contents/robotics/mblock.md'
+  - 'Sensors, actuators and controllers':
+    - 'Introduction' : 'contents/robotics/intro_sens_act_contr.md'
+    - 'Sensors' : 'contents/robotics/sensors.md'
+    - 'Actuators' : 'contents/robotics/actuators.md'
+    - 'Controllers' : 'contents/robotics/controllers.md'
+    - 'mBot' : 'contents/robotics/mbot.md'
+#  - 'Loading and execution of algorithms in robots':
+#    - 'Item'
+#  - 'Robotic systems in experimentation with designed prototypes':
+#    - 'Item'
+  - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
+  - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
+#- 'Programación Didáctica':
+#    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
+theme:
+    language: es
+    name: 'readthedocs'
+    palette:
+        primary: 'Teal'
+        accent: 'Teal'
+    font:
+        text: Roboto
+        code: Roboto Mono
+    logo: 'images/floppy-ict2.png'
+
+plugins:
+  - glightbox
+  - search
+  #- pandoc
+  #pandoc:
+  # - combined: true
+
+markdown_extensions:
+  - attr_list
+  - sane_lists
+
+extra_css:
+  - css/ict.css

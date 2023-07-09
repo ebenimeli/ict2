@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>mBot - Artificial Intelligence, Programming and Robotics</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../css/ict.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "mBot";
+        var mkdocs_page_input_path = "contents/robotics/mbot.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+ <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../..">
+          <img src="../../images/floppy-ict3.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Artificial Intelligence</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Introduction to AI</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../ai/the-turing-test.html">The Turing Test</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ai/terms.html">AI terms</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Robotics</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="#">Introduction to Robotics</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="robots.html">What is a robot?</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="robots_ai.html">Robots and AI</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robots.html">Robots</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robotics_ai.html">Robotics and AI</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robots_engineering.html">How Engineering Robots Works</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Control of robotic systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="mblock.html">Introduction to mBlock</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Sensors, actuators and controllers</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="intro_sens_act_contr.html">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="sensors.html">Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="actuators.html">Actuators</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="controllers.html">Controllers</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="mbot.html">mBot</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#ultrasonic-sensor">Ultrasonic Sensor</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#line-follower-sensors">Line Follower Sensors</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tt-geared-motor">TT Geared Motor</a>
+    </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="robotresearch.html">Project (I): Robot Research</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="mbotcode.html">Project (II): mBot Robot Programming</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Artificial Intelligence, Programming and Robotics</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Robotics &raquo;</li>
+          <li>Sensors, actuators and controllers &raquo;</li>
+      <li>mBot</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="mbot">mBot</h1>
+<p><a class="glightbox" href="images/mbot.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="mBot" src="images/mbot.png" /></a></p>
+<h2 id="ultrasonic-sensor">Ultrasonic Sensor</h2>
+<p>Me Ultrasonic module is an electronic module designed for distance detection. The distance range it can detect is 3-400 cm. mBot can use this module to avoid obstacles or for other programs about distance detection. The yellow tag on the interface of this module indicates that it is a single digital interface and that it should be connected to a port with the yellow tag on the main control board.</p>
+<p>The ultrasonic sensor measures distance. One of the “eyes” transmits a sound, and the other waits for the echo of the sound to return. From the time this process takes, the distance of the object from the sensor can be calculated.</p>
+<p>The ultrasonic sensor has a range of 3-400cm. If an object is outside this range, the sensor will return a value of 400.</p>
+<h2 id="line-follower-sensors">Line Follower Sensors</h2>
+<p>Me Line Follower is designed for line-following robots. There are two sensors, each with an IR transmitting LED and an IR static induction phototransistor. mBot can move along a black line on a white background or a white line on a black background. It features fast detection and simple circuits. The blue tag on the interface of this module indicates that it is a dual digital interface and that it should be connected to a port with the blue tag on the main control board.</p>
+<p>The line follower has 2 sensors which can detect a white surface (within the range of 1-2cm).</p>
+<p>It works by emitting IR (InfraRed) light and recording how much is reflected back:</p>
+<ul>
+<li>If a lot is reflected back, it can be deduced it is close to a white surface.</li>
+<li>If a little is reflected back, it can be deduced that the surface is black, or the sensor is not near a surface.</li>
+</ul>
+<p>A light surface reflects a lot of infrared light back to the receiver. A dark surface only reflects a little light back to the receiver.</p>
+<h2 id="tt-geared-motor">TT Geared Motor</h2>
+<p>TT Geared Motor DC 6 V / 200 RPM is the new power source with plastic gears. The TT Geared Motor perfectly works with Makeblock Plastic Timing Pulley 62T and Plastic Timing Pulley 90T for the wheel systems of DIY projects. It can be used to power mBot.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="controllers.html" class="btn btn-neutral float-left" title="Controllers"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="robotresearch.html" class="btn btn-neutral float-right" title="Project (I): Robot Research">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="controllers.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="robotresearch.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>

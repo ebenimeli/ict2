@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Actuators - Artificial Intelligence, Programming and Robotics</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../css/ict.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Actuators";
+        var mkdocs_page_input_path = "contents/robotics/actuators.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+ <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../..">
+          <img src="../../images/floppy-ict3.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Artificial Intelligence</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Introduction to AI</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../ai/the-turing-test.html">The Turing Test</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ai/terms.html">AI terms</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Robotics</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="#">Introduction to Robotics</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="robots.html">What is a robot?</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="robots_ai.html">Robots and AI</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robots.html">Robots</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robotics_ai.html">Robotics and AI</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robots_engineering.html">How Engineering Robots Works</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Control of robotic systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="mblock.html">Introduction to mBlock</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Sensors, actuators and controllers</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="intro_sens_act_contr.html">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="sensors.html">Sensors</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="actuators.html">Actuators</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#glossary">Glossary</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="controllers.html">Controllers</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="mbot.html">mBot</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="robotresearch.html">Project (I): Robot Research</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="mbotcode.html">Project (II): mBot Robot Programming</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Artificial Intelligence, Programming and Robotics</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Robotics &raquo;</li>
+          <li>Sensors, actuators and controllers &raquo;</li>
+      <li>Actuators</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p><a class="glightbox" href="images/robot_hand.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Actuators" src="images/robot_hand.png" /></a></p>
+<h1 id="actuators">Actuators</h1>
+<p>An actuator is a component of a robot that is responsible for creating <strong>movement</strong> or <strong>motion</strong>. In other words, an actuator is what makes a robot move, grab, lift, or perform any other physical action.</p>
+<p>There are different <strong>types of actuators</strong> used in robotics, depending on the purpose and design of the robot. Some common types of actuators include:</p>
+<ul>
+<li><strong>Motors</strong>: These are electrical or mechanical devices that convert electrical energy into mechanical energy to create motion. Motors are commonly used in robots to drive wheels, move robot arms, or control the position of robot joints.</li>
+<li><strong>Pneumatic cylinders</strong>: These are devices that use compressed air to create motion. Pneumatic cylinders are often used in industrial robots to move heavy loads or in applications where precision and speed are important.</li>
+<li><strong>Hydraulic cylinders</strong>: Similar to pneumatic cylinders, hydraulic cylinders use fluid instead of air to create motion. They are often used in large industrial robots for heavy-duty applications.</li>
+<li><strong>Solenoids</strong>: These are electromechanical devices that convert electrical energy into linear or rotary motion. Solenoids are commonly used in small robots for precise movements, such as opening and closing robot grippers.</li>
+</ul>
+<p>In summary, an actuator is a critical component of a robot that creates <strong>motion</strong> or <strong>movement</strong>. Different types of actuators are used depending on the application and design of the robot. By using actuators, robots can perform <strong>physical tasks</strong> and interact with their environment, making them useful for a wide range of applications, from manufacturing to healthcare.</p>
+<h2 id="glossary">Glossary</h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>Spanish</th>
+<th>Example Sentence (English)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Actuators</strong></td>
+<td>Actuadores</td>
+<td>"The robot's <strong>actuators</strong> allowed it to perform precise movements and interact with objects."</td>
+</tr>
+<tr>
+<td><strong>Applications</strong></td>
+<td>Aplicaciones</td>
+<td>"Robots have various <strong>applications</strong> in industries such as manufacturing, healthcare, and more."</td>
+</tr>
+<tr>
+<td><strong>Arms</strong></td>
+<td>Brazos</td>
+<td>"The robot's multiple <strong>arms</strong> enabled it to manipulate objects with dexterity."</td>
+</tr>
+<tr>
+<td><strong>Component</strong></td>
+<td>Componente</td>
+<td>"The actuator is an essential <strong>component</strong> of a robot's mechanism."</td>
+</tr>
+<tr>
+<td><strong>Control</strong></td>
+<td>Control</td>
+<td>"The robot's actuators were operated by a sophisticated <strong>control</strong> system."</td>
+</tr>
+<tr>
+<td><strong>Convert</strong></td>
+<td>Convertir</td>
+<td>"The motor <strong>converts</strong> electrical energy into mechanical energy for locomotion."</td>
+</tr>
+<tr>
+<td><strong>Create</strong></td>
+<td>Crear</td>
+<td>"The hydraulic cylinder <strong>creates</strong> powerful motion to lift heavy loads."</td>
+</tr>
+<tr>
+<td><strong>Critical</strong></td>
+<td>Crítico</td>
+<td>"The actuator is a <strong>critical</strong> element for the robot's functionality."</td>
+</tr>
+<tr>
+<td><strong>Design</strong></td>
+<td>Diseño</td>
+<td>"The choice of actuators depends on the robot's <strong>design</strong> and intended tasks."</td>
+</tr>
+<tr>
+<td><strong>Devices</strong></td>
+<td>Dispositivos</td>
+<td>"Motors, solenoids, and cylinders are common <strong>devices</strong> used as actuators."</td>
+</tr>
+<tr>
+<td><strong>Drive</strong></td>
+<td>Impulsar</td>
+<td>"The motors <strong>drive</strong> the robot's wheels, propelling it forward."</td>
+</tr>
+<tr>
+<td><strong>Electrical</strong></td>
+<td>Eléctrico</td>
+<td>"Solenoids are <strong>electrical</strong> devices that convert energy into motion."</td>
+</tr>
+<tr>
+<td><strong>Energy</strong></td>
+<td>Energía</td>
+<td>"Actuators require a power source to operate and convert <strong>energy</strong> into motion."</td>
+</tr>
+<tr>
+<td><strong>Fluid</strong></td>
+<td>Fluido</td>
+<td>"Hydraulic cylinders use <strong>fluid</strong> to generate motion in the robot's limbs."</td>
+</tr>
+<tr>
+<td><strong>Grab</strong></td>
+<td>Agarrar</td>
+<td>"The robot's gripper can <strong>grab</strong> and manipulate objects of different shapes and sizes."</td>
+</tr>
+<tr>
+<td><strong>Heavy-duty</strong></td>
+<td>Resistente</td>
+<td>"Industrial robots equipped with hydraulic cylinders can handle <strong>heavy-duty</strong> tasks."</td>
+</tr>
+<tr>
+<td><strong>Important</strong></td>
+<td>Importante</td>
+<td>"Precision and speed are <strong>important</strong> factors in choosing pneumatic cylinders for a robot."</td>
+</tr>
+<tr>
+<td><strong>Interact</strong></td>
+<td>Interactuar</td>
+<td>"Robots can <strong>interact</strong> with humans and their surroundings using various actuators."</td>
+</tr>
+<tr>
+<td><strong>Linear</strong></td>
+<td>Lineal</td>
+<td>"Solenoids can produce <strong>linear</strong> or rotary motion depending on the design."</td>
+</tr>
+<tr>
+<td><strong>Mechanical</strong></td>
+<td>Mecánico</td>
+<td>"Motors are <strong>mechanical</strong> devices that convert electrical energy into mechanical motion."</td>
+</tr>
+<tr>
+<td><strong>Motion</strong></td>
+<td>Movimiento</td>
+<td>"Actuators are responsible for creating <strong>motion</strong> and enabling a robot's locomotion."</td>
+</tr>
+<tr>
+<td><strong>Multiple</strong></td>
+<td>Múltiple</td>
+<td>"The robot had <strong>multiple</strong> actuators that worked together for coordinated movements."</td>
+</tr>
+<tr>
+<td><strong>Perform</strong></td>
+<td>Realizar</td>
+<td>"Actuators allow robots to <strong>perform</strong> complex tasks with precision and accuracy."</td>
+</tr>
+<tr>
+<td><strong>Position</strong></td>
+<td>Posición</td>
+<td>"Motors can control the <strong>position</strong> of a robot's arm or joint with high accuracy."</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="sensors.html" class="btn btn-neutral float-left" title="Sensors"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="controllers.html" class="btn btn-neutral float-right" title="Controllers">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="sensors.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="controllers.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>

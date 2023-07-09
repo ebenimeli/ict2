@@ -1,0 +1,21 @@
+blockquote p {
+    font-size: 1em;
+    color: #696969;
+    border-left: 7px solid steelblue;
+    padding: 10px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+ul, ol {
+    text-align: justify;
+}
+
+h2 {
+    border-bottom: 1px solid steelblue;
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>What is a robot? - Artificial Intelligence, Programming and Robotics</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../css/ict.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "What is a robot?";
+        var mkdocs_page_input_path = "contents/robotics/robots.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+ <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../..">
+          <img src="../../images/floppy-ict3.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Artificial Intelligence</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Introduction to AI</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../ai/the-turing-test.html">The Turing Test</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ai/terms.html">AI terms</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Robotics</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Introduction to Robotics</a>
+    <ul class="current">
+                <li class="toctree-l2 current"><a class="reference internal current" href="robots.html">What is a robot?</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#what-is-a-robot">What is a robot?</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#glossary">Glossary</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="robots_ai.html">Robots and AI</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robots.html">Robots</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robotics_ai.html">Robotics and AI</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robots_engineering.html">How Engineering Robots Works</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Control of robotic systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="mblock.html">Introduction to mBlock</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Sensors, actuators and controllers</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="intro_sens_act_contr.html">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="sensors.html">Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="actuators.html">Actuators</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="controllers.html">Controllers</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="mbot.html">mBot</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="robotresearch.html">Project (I): Robot Research</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="mbotcode.html">Project (II): mBot Robot Programming</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Artificial Intelligence, Programming and Robotics</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Robotics &raquo;</li>
+          <li>Introduction to Robotics &raquo;</li>
+      <li>What is a robot?</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p><a class="glightbox" href="images/robot_humanoid.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Robots!" src="images/robot_humanoid.png" /></a></p>
+<h1 id="robots">Robots</h1>
+<h2 id="what-is-a-robot">What is a robot?</h2>
+<p>A robot is a machine that can be programmed to perform a variety of tasks. These tasks can range from simple actions like moving objects from one place to another, to more complex actions like assembling parts or performing surgery. Robots can be designed to operate autonomously or be controlled by a human operator.</p>
+<p>What sets robots apart from other machines is their ability to sense their environment and respond to it. They do this through the use of sensors such as cameras, microphones, and touch sensors. Based on the information they receive from these sensors, robots can make decisions about what actions to take.</p>
+<p>Robots come in many different shapes and sizes, and can be designed for a variety of purposes. For example, some robots are designed to work in factories, while others are used in healthcare settings to assist with surgeries or help patients with mobility issues. As you study robotics, you'll learn more about the different types of robots and how they are used in various industries.</p>
+<p>Overall, robots are an exciting and rapidly developing field in technology, and studying robotics can lead to many interesting career opportunities.</p>
+<h2 id="glossary">Glossary</h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>Spanish</th>
+<th>Example Sentence (English)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Robots</strong></td>
+<td>Robots</td>
+<td>"<strong>Robots</strong> are used in manufacturing to automate repetitive tasks."</td>
+</tr>
+<tr>
+<td><strong>Machine</strong></td>
+<td>Máquina</td>
+<td>"The robotic <strong>machine</strong> assembled the components with precision."</td>
+</tr>
+<tr>
+<td><strong>Programmed</strong></td>
+<td>Programado/a</td>
+<td>"The robot was <strong>programmed</strong> to navigate through a maze."</td>
+</tr>
+<tr>
+<td><strong>Tasks</strong></td>
+<td>Tareas</td>
+<td>"The robot was assigned multiple <strong>tasks</strong> in the industrial setting."</td>
+</tr>
+<tr>
+<td><strong>Actions</strong></td>
+<td>Acciones</td>
+<td>"Robots can perform complex <strong>actions</strong> such as grasping and manipulating objects."</td>
+</tr>
+<tr>
+<td><strong>Moving</strong></td>
+<td>Mover</td>
+<td>"The robot is capable of <strong>moving</strong> heavy objects from one location to another."</td>
+</tr>
+<tr>
+<td><strong>Objects</strong></td>
+<td>Objetos</td>
+<td>"The robot detected and identified <strong>objects</strong> using its vision system."</td>
+</tr>
+<tr>
+<td><strong>Place</strong></td>
+<td>Lugar</td>
+<td>"The robot <strong>placed</strong> the finished product on the conveyor belt."</td>
+</tr>
+<tr>
+<td><strong>Assembling</strong></td>
+<td>Ensamblaje</td>
+<td>"The robot is responsible for <strong>assembling</strong> electronic components in the production line."</td>
+</tr>
+<tr>
+<td><strong>Parts</strong></td>
+<td>Partes</td>
+<td>"The robotic arm picked up the small <strong>parts</strong> and assembled them together."</td>
+</tr>
+<tr>
+<td><strong>Performing</strong></td>
+<td>Realizar</td>
+<td>"The surgical robot is capable of <strong>performing</strong> precise and delicate procedures."</td>
+</tr>
+<tr>
+<td><strong>Surgery</strong></td>
+<td>Cirugía</td>
+<td>"Robotic <strong>surgery</strong> offers the advantages of minimally invasive procedures."</td>
+</tr>
+<tr>
+<td><strong>Operate</strong></td>
+<td>Operar</td>
+<td>"The robot can <strong>operate</strong> autonomously or be controlled by a human operator."</td>
+</tr>
+<tr>
+<td><strong>Autonomously</strong></td>
+<td>Autónomamente</td>
+<td>"The <strong>autonomous</strong> robot navigated through the obstacle course without human intervention."</td>
+</tr>
+<tr>
+<td><strong>Controlled</strong></td>
+<td>Controlado/a</td>
+<td>"The robot was <strong>controlled</strong> remotely by a skilled operator."</td>
+</tr>
+<tr>
+<td><strong>Human operator</strong></td>
+<td>Operador humano</td>
+<td>"The robot collaborated with the <strong>human operator</strong> to perform complex tasks."</td>
+</tr>
+<tr>
+<td><strong>Environment</strong></td>
+<td>Entorno</td>
+<td>"Robots use <strong>sensors</strong> to perceive and interact with their <strong>environment</strong>."</td>
+</tr>
+<tr>
+<td><strong>Sensors</strong></td>
+<td>Sensores</td>
+<td>"The robot's <strong>sensors</strong> detected the presence of obstacles in its path."</td>
+</tr>
+<tr>
+<td><strong>Cameras</strong></td>
+<td>Cámaras</td>
+<td>"The robot's <strong>camera</strong> captured high-resolution images for visual inspection."</td>
+</tr>
+<tr>
+<td><strong>Microphones</strong></td>
+<td>Micrófonos</td>
+<td>"The robot's <strong>microphones</strong> picked up sound signals for voice recognition."</td>
+</tr>
+<tr>
+<td><strong>Touch sensors</strong></td>
+<td>Sensores táctiles</td>
+<td>"The robot's <strong>touch sensors</strong> enabled it to detect and respond to tactile stimuli."</td>
+</tr>
+<tr>
+<td><strong>Decisions</strong></td>
+<td>Decisiones</td>
+<td>"Based on sensor data, the robot made intelligent <strong>decisions</strong> to navigate its surroundings."</td>
+</tr>
+<tr>
+<td><strong>Shapes</strong></td>
+<td>Formas</td>
+<td>"The robot's gripper was designed to handle objects of various <strong>shapes</strong> and sizes."</td>
+</tr>
+<tr>
+<td><strong>Sizes</strong></td>
+<td>Tamaños</td>
+<td>"The robot adjusted its grip strength based on the <strong>size</strong> of the object it handled."</td>
+</tr>
+<tr>
+<td><strong>Purposes</strong></td>
+<td>Propósitos</td>
+<td>"Robots are used in various industries for different <strong>purposes</strong>, such as manufacturing and healthcare."</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../ai/terms.html" class="btn btn-neutral float-left" title="AI terms"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="robots_ai.html" class="btn btn-neutral float-right" title="Robots and AI">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../ai/terms.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="robots_ai.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>

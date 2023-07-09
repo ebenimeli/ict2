@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Controllers - Artificial Intelligence, Programming and Robotics</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../css/ict.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Controllers";
+        var mkdocs_page_input_path = "contents/robotics/controllers.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+ <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../..">
+          <img src="../../images/floppy-ict3.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Artificial Intelligence</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Introduction to AI</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../ai/the-turing-test.html">The Turing Test</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ai/terms.html">AI terms</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Robotics</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="#">Introduction to Robotics</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="robots.html">What is a robot?</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="robots_ai.html">Robots and AI</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robots.html">Robots</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robotics_ai.html">Robotics and AI</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robots_engineering.html">How Engineering Robots Works</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Control of robotic systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="mblock.html">Introduction to mBlock</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Sensors, actuators and controllers</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="intro_sens_act_contr.html">Introduction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="sensors.html">Sensors</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="actuators.html">Actuators</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="controllers.html">Controllers</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#glossary">Glossary</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="mbot.html">mBot</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="robotresearch.html">Project (I): Robot Research</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="mbotcode.html">Project (II): mBot Robot Programming</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Artificial Intelligence, Programming and Robotics</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Robotics &raquo;</li>
+          <li>Sensors, actuators and controllers &raquo;</li>
+      <li>Controllers</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p><a class="glightbox" href="images/robot_controller.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Controller" src="images/robot_controller.png" /></a></p>
+<h1 id="controller">Controller</h1>
+<p>A controller is a device or system that manages and controls the behavior of a robot. It receives input from sensors and provides output to actuators to ensure the robot moves or behaves in a specific way.</p>
+<p>Controllers are essential for ensuring that a robot operates safely, efficiently, and effectively. They can be simple or complex, depending on the complexity of the robot and the tasks it is designed to perform. For example, a simple controller might be used to control the motion of a small robot that moves in a straight line, while a more complex controller might be used to manage the movements of a larger robot with multiple arms and sensors.</p>
+<p>There are different types of controllers used in robotics, such as:</p>
+<ul>
+<li><strong>Microcontrollers</strong>: These are small computers that are embedded within the robot itself. They can receive input from sensors, process data, and provide output to actuators, all in real-time. Microcontrollers are often used in small, simple robots.</li>
+<li><strong>Programmable Logic Controllers (PLCs)</strong>: These are specialized computers that are designed to control industrial machinery, including robots. They can manage multiple inputs and outputs, and are often used in large, complex robotic systems.</li>
+<li><strong>Robot Operating System (ROS)</strong>: This is an open-source platform for programming robots. It provides a range of tools and libraries that enable developers to create and manage the behavior of robots, including controllers.</li>
+</ul>
+<p>In summary, a controller is a device or system that manages and controls the behavior of a robot. It receives input from sensors and provides output to actuators, ensuring that the robot moves and behaves in a specific way. Different types of controllers are used depending on the complexity of the robot and the tasks it is designed to perform.</p>
+<h2 id="glossary">Glossary</h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>Spanish</th>
+<th>Example Sentence (English)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Actuators</strong></td>
+<td>Actuadores</td>
+<td>"The robot's <strong>actuators</strong> responded to the controller's commands, enabling precise movements."</td>
+</tr>
+<tr>
+<td><strong>Behavior</strong></td>
+<td>Comportamiento</td>
+<td>"The controller dictated the robot's <strong>behavior</strong>, ensuring it followed the desired operating parameters."</td>
+</tr>
+<tr>
+<td><strong>Complexity</strong></td>
+<td>Complejidad</td>
+<td>"The controller's design varied based on the robot's <strong>complexity</strong> and the tasks it needed to accomplish."</td>
+</tr>
+<tr>
+<td><strong>Computers</strong></td>
+<td>Computadoras</td>
+<td>"Microcontrollers and PLCs are types of <strong>computers</strong> used as controllers in robotics."</td>
+</tr>
+<tr>
+<td><strong>Control</strong></td>
+<td>Control</td>
+<td>"The controller's main function was to <strong>control</strong> the robot's actions and responses to the environment."</td>
+</tr>
+<tr>
+<td><strong>Efficiency</strong></td>
+<td>Eficiencia</td>
+<td>"The advanced controller improved the robot's <strong>efficiency</strong> by optimizing its movements and power usage."</td>
+</tr>
+<tr>
+<td><strong>Embedded</strong></td>
+<td>Incorporado</td>
+<td>"Microcontrollers are <strong>embedded</strong> within the robot's structure, enabling real-time control."</td>
+</tr>
+<tr>
+<td><strong>Input</strong></td>
+<td>Entrada</td>
+<td>"The controller processed the <strong>input</strong> from various sensors to make informed decisions."</td>
+</tr>
+<tr>
+<td><strong>Manage</strong></td>
+<td>Gestionar</td>
+<td>"The controller was responsible for <strong>managing</strong> the robot's operations and maintaining its performance."</td>
+</tr>
+<tr>
+<td><strong>Microcontrollers</strong></td>
+<td>Microcontroladores</td>
+<td>"Small robots often rely on <strong>microcontrollers</strong> as their primary controllers due to their compact size."</td>
+</tr>
+<tr>
+<td><strong>Movements</strong></td>
+<td>Movimientos</td>
+<td>"The controller coordinated the robot's <strong>movements</strong> with precision and smoothness."</td>
+</tr>
+<tr>
+<td><strong>Multiple</strong></td>
+<td>Múltiple</td>
+<td>"Complex robots with <strong>multiple</strong> arms and sensors required a sophisticated controller for coordinated control."</td>
+</tr>
+<tr>
+<td><strong>Open-source</strong></td>
+<td>Código abierto</td>
+<td>"ROS, an <strong>open-source</strong> platform, provided flexible and accessible tools for robot behavior control."</td>
+</tr>
+<tr>
+<td><strong>Output</strong></td>
+<td>Salida</td>
+<td>"The controller generated <strong>output</strong> signals to direct the actuators and influence the robot's behavior."</td>
+</tr>
+<tr>
+<td><strong>Platform</strong></td>
+<td>Plataforma</td>
+<td>"ROS served as a powerful <strong>platform</strong> for developing and implementing robot controllers."</td>
+</tr>
+<tr>
+<td><strong>Programmable</strong></td>
+<td>Programable</td>
+<td>"PLCs offered a <strong>programmable</strong> solution for controlling complex robotic systems in industrial settings."</td>
+</tr>
+<tr>
+<td><strong>Real-time</strong></td>
+<td>Tiempo real</td>
+<td>"Microcontrollers processed sensor data and produced <strong>real-time</strong> control signals for immediate robot response."</td>
+</tr>
+<tr>
+<td><strong>Receive</strong></td>
+<td>Recibir</td>
+<td>"The controller could <strong>receive</strong> and interpret signals from various sensors to make informed decisions."</td>
+</tr>
+<tr>
+<td><strong>Robotic systems</strong></td>
+<td>Sistemas robóticos</td>
+<td>"PLCs were commonly used in large <strong>robotic systems</strong> for managing multiple actuators and sensors."</td>
+</tr>
+<tr>
+<td><strong>Sensors</strong></td>
+<td>Sensores</td>
+<td>"The controller relied on <strong>sensors</strong> to gather information about the robot's environment and conditions."</td>
+</tr>
+<tr>
+<td><strong>Simple</strong></td>
+<td>Simple</td>
+<td>"A <strong>simple</strong> controller sufficed for the basic motion control of a small line-following robot."</td>
+</tr>
+<tr>
+<td><strong>Tasks</strong></td>
+<td>Tareas</td>
+<td>"The controller assigned specific <strong>tasks</strong> to different actuators, enabling coordinated robot behavior."</td>
+</tr>
+<tr>
+<td><strong>Tools</strong></td>
+<td>Herramientas</td>
+<td>"ROS provided a rich set of</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="actuators.html" class="btn btn-neutral float-left" title="Actuators"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="mbot.html" class="btn btn-neutral float-right" title="mBot">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="actuators.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="mbot.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>

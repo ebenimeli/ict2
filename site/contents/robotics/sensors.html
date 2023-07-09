@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Sensors - Artificial Intelligence, Programming and Robotics</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../css/ict.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Sensors";
+        var mkdocs_page_input_path = "contents/robotics/sensors.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+ <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../..">
+          <img src="../../images/floppy-ict3.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Artificial Intelligence</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Introduction to AI</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../ai/the-turing-test.html">The Turing Test</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../ai/terms.html">AI terms</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Robotics</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="#">Introduction to Robotics</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="robots.html">What is a robot?</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="robots_ai.html">Robots and AI</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robots.html">Robots</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robotics_ai.html">Robotics and AI</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="crashcourse_robots_engineering.html">How Engineering Robots Works</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Control of robotic systems</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="mblock.html">Introduction to mBlock</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Sensors, actuators and controllers</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="intro_sens_act_contr.html">Introduction</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="sensors.html">Sensors</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#definition-of-sensor">Definition of sensor</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#types-of-sensors">Types of sensors</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#quiz">Quiz</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#glossary">Glossary</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="actuators.html">Actuators</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="controllers.html">Controllers</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="mbot.html">mBot</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="robotresearch.html">Project (I): Robot Research</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="mbotcode.html">Project (II): mBot Robot Programming</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Artificial Intelligence, Programming and Robotics</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Robotics &raquo;</li>
+          <li>Sensors, actuators and controllers &raquo;</li>
+      <li>Sensors</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p><a class="glightbox" href="https://docs.esferatic.com/ict3/contents/robotics/images/computer_vision.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Computer Vision" src="https://docs.esferatic.com/ict3/contents/robotics/images/computer_vision.jpg" /></a></p>
+<h1 id="sensors">Sensors</h1>
+<h2 id="definition-of-sensor">Definition of sensor</h2>
+<p><strong>Sensors</strong> are devices that can <strong>detect and measure</strong> physical and environmental conditions such as temperature, light, sound, and movement. In this lesson, we will learn about the different types of sensors used in AI applications and the different ways in which they can be used.</p>
+<h2 id="types-of-sensors">Types of sensors</h2>
+<ul>
+<li>
+<p><strong>Optical sensors</strong>: These sensors detect light and are used in applications such as facial recognition, object detection, and image processing. Examples of optical sensors include cameras and lidar sensors.</p>
+</li>
+<li>
+<p><strong>Temperature sensors</strong>: These sensors measure temperature and are used in applications such as climate control and food safety. Examples of temperature sensors include thermocouples and thermistors.</p>
+</li>
+<li>
+<p><strong>Pressure sensors</strong>: These sensors measure pressure and are used in applications such as industrial automation, weather forecasting, and healthcare. Examples of pressure sensors include piezoelectric sensors and strain gauge sensors.</p>
+</li>
+<li>
+<p><strong>Accelerometer sensors</strong>: These sensors measure acceleration and are used in applications such as motion detection, navigation, and gaming. Examples of accelerometer sensors include MEMS accelerometers and piezoelectric accelerometers.</p>
+</li>
+<li>
+<p><strong>Gyroscopic sensors</strong>: These sensors measure angular velocity and are used in applications such as navigation, gaming, and robotics. Examples of gyroscopic sensors include MEMS gyroscopes and fiber optic gyroscopes.</p>
+</li>
+<li>
+<p><strong>Magnetic sensors</strong>: These sensors measure magnetic fields and are used in applications such as navigation, industrial automation, and healthcare. Examples of magnetic sensors include Hall effect sensors and magnetoresistive sensors.</p>
+</li>
+<li>
+<p><strong>Ultrasonic sensors</strong>: These sensors measure distance and are used in applications such as object detection, navigation, and industrial automation. Examples of ultrasonic sensors include sonar sensors and lidar sensors.</p>
+</li>
+<li>
+<p><strong>Infrared sensors</strong>: These sensors detect infrared radiation and are used in applications such as temperature measurement, night vision, and gesture recognition. Examples of infrared sensors include thermopile sensors and pyroelectric sensors.</p>
+</li>
+<li>
+<p><strong>Proximity sensors</strong>: These sensors detect the presence of objects and are used in applications such as gesture recognition, object detection, and access control. Examples of proximity sensors include infrared proximity sensors and ultrasonic proximity sensors.</p>
+</li>
+<li>
+<p><strong>Light sensors</strong>: These sensors detect light and are used in applications such as light control, gesture recognition, and object detection. Examples of light sensors include photodiodes and phototransistors.</p>
+</li>
+<li>
+<p><strong>Humidity sensors</strong>: These sensors measure humidity and are used in applications such as weather forecasting, agriculture, and healthcare. Examples of humidity sensors include capacitive humidity sensors and resistive humidity sensors.</p>
+</li>
+<li>
+<p><strong>Gas sensors</strong>: These sensors detect the presence of gases and are used in applications such as environmental monitoring, industrial automation, and healthcare. Examples of gas sensors include electrochemical gas sensors and metal oxide gas sensors.</p>
+</li>
+</ul>
+<p><a class="glightbox" href="images/quiz.jpg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Computer Vision" src="images/quiz.jpg" /></a></p>
+<h2 id="quiz">Quiz</h2>
+<p><strong>1. What do sensors detect and measure?</strong></p>
+<p>a) Physical and environmental conditions<br/>
+b) Human emotions<br/>
+c) Food flavors<br/>
+d) Political opinions<br/></p>
+<p><strong>2. Which type of sensor is used in facial recognition and image processing?</strong></p>
+<p>a) Temperature sensors<br/>
+b) Pressure sensors<br/>
+c) Optical sensors<br/>
+d) Magnetic sensors<br/></p>
+<p><strong>3. Which type of sensor measures acceleration?</strong></p>
+<p>a) Temperature sensors<br/>
+b) Gyroscopic sensors<br/>
+c) Humidity sensors<br/>
+d) Gas sensors<br/></p>
+<p><strong>4. What do proximity sensors detect?</strong></p>
+<p>a) The presence of objects<br/>
+b) The color of objects<br/>
+c) The weight of objects<br/>
+d) The shape of objects<br/></p>
+<p><strong>5. What type of sensors measure angular velocity and can be used in navigation and robotics?</strong></p>
+<p>a) Gyroscopic sensors<br/>
+b) Temperature sensors<br/>
+c) Infrared sensors<br/>
+d) Gas sensors<br/></p>
+<h2 id="glossary">Glossary</h2>
+<table>
+<thead>
+<tr>
+<th>English</th>
+<th>Spanish</th>
+<th>Example Sentence (English)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Accelerometer sensors</strong></td>
+<td>Sensores de aceleración</td>
+<td>"The <strong>accelerometer sensors</strong> detected sudden movements and adjusted the robot's trajectory."</td>
+</tr>
+<tr>
+<td><strong>Color sensors</strong></td>
+<td>Sensores de color</td>
+<td>"The robot's <strong>color sensors</strong> enabled it to distinguish between different objects based on hue."</td>
+</tr>
+<tr>
+<td><strong>Force sensors</strong></td>
+<td>Sensores de fuerza</td>
+<td>"The robot used <strong>force sensors</strong> to measure the applied force during object manipulation."</td>
+</tr>
+<tr>
+<td><strong>Gas sensors</strong></td>
+<td>Sensores de gas</td>
+<td>"The robot's safety was enhanced by <strong>gas sensors</strong> that detected hazardous fumes."</td>
+</tr>
+<tr>
+<td><strong>Gyroscopic sensors</strong></td>
+<td>Sensores giroscópicos</td>
+<td>"The robot's precise movements were achieved with the help of <strong>gyroscopic sensors</strong>."</td>
+</tr>
+<tr>
+<td><strong>Humidity sensors</strong></td>
+<td>Sensores de humedad</td>
+<td>"The <strong>humidity sensors</strong> ensured optimal conditions for plant growth in automated farming."</td>
+</tr>
+<tr>
+<td><strong>Infrared sensors</strong></td>
+<td>Sensores infrarrojos</td>
+<td>"The <strong>infrared sensors</strong> detected human body heat for gesture recognition."</td>
+</tr>
+<tr>
+<td><strong>Light sensors</strong></td>
+<td>Sensores de luz</td>
+<td>"The robot adjusted its behavior based on the readings from the <strong>light sensors</strong>."</td>
+</tr>
+<tr>
+<td><strong>Magnetic sensors</strong></td>
+<td>Sensores magnéticos</td>
+<td>"The robot relied on <strong>magnetic sensors</strong> to navigate and avoid obstacles in its path."</td>
+</tr>
+<tr>
+<td><strong>Motion sensors</strong></td>
+<td>Sensores de movimiento</td>
+<td>"The robot's behavior was influenced by the readings from the <strong>motion sensors</strong> in its environment."</td>
+</tr>
+<tr>
+<td><strong>Pressure sensors</strong></td>
+<td>Sensores de presión</td>
+<td>"The robot used <strong>pressure sensors</strong> to monitor the gripping force during assembly tasks."</td>
+</tr>
+<tr>
+<td><strong>Proximity sensors</strong></td>
+<td>Sensores de proximidad</td>
+<td>"The robot's precise movements were achieved with the help of <strong>proximity sensors</strong>."</td>
+</tr>
+<tr>
+<td><strong>Sound sensors</strong></td>
+<td>Sensores de sonido</td>
+<td>"The robot utilized <strong>sound sensors</strong> to identify specific audio patterns in its environment."</td>
+</tr>
+<tr>
+<td><strong>Temperature sensors</strong></td>
+<td>Sensores de temperatura</td>
+<td>"The robot's <strong>temperature sensors</strong> ensured optimal conditions for storing perishable goods."</td>
+</tr>
+<tr>
+<td><strong>Touch sensors</strong></td>
+<td>Sensores táctiles</td>
+<td>"The robot's <strong>touch sensors</strong> allowed it to detect and respond to human touch."</td>
+</tr>
+<tr>
+<td><strong>Ultrasonic sensors</strong></td>
+<td>Sensores ultrasónicos</td>
+<td>"The robot used <strong>ultrasonic sensors</strong> to detect the presence of objects in its vicinity."</td>
+</tr>
+<tr>
+<td><strong>Vibration sensors</strong></td>
+<td>Sensores de vibración</td>
+<td>"The robot's navigation system incorporated <strong>vibration sensors</strong> for terrain analysis."</td>
+</tr>
+<tr>
+<td><strong>GPS sensors</strong></td>
+<td>Sensores GPS</td>
+<td>"The robot relied on <strong>GPS sensors</strong> to navigate outdoor environments with precise location tracking."</td>
+</tr>
+<tr>
+<td><strong>Humidity sensors</strong></td>
+<td>Sensores de humedad</td>
+<td>"The <strong>humidity sensors</strong> ensured optimal conditions for weather forecasting and agriculture."</td>
+</tr>
+<tr>
+<td><strong>Infrared sensors</strong></td>
+<td>Sensores infrarrojos</td>
+<td>"The <strong>infrared sensors</strong> detected human body heat for gesture recognition."</td>
+</tr>
+<tr>
+<td><strong>Light sensors</strong></td>
+<td>Sensores de luz</td>
+<td>"The robot adjusted its behavior based on the readings from the **light</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="intro_sens_act_contr.html" class="btn btn-neutral float-left" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="actuators.html" class="btn btn-neutral float-right" title="Actuators">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="intro_sens_act_contr.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="actuators.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
