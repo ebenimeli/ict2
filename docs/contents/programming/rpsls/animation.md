@@ -31,7 +31,29 @@ You can use Scratch online. The platform is web-based, and you can access it thr
 
 First, choose a background for the game and insert text in the bottom right corner with the names of the
 
+In Scratch, a backdrop is the background or scenery that serves as the visual environment for your project. It provides context to the sprites and actions happening in your project. Backdrops can be static images or even dynamic scenes that change over time.
+
+To add a new backdrop in Scratch:
+
+1. **Open Your Project:**
+   - Go to the Scratch website (https://scratch.mit.edu/) and log in if you aren't already.
+   - Open the project to which you want to add a new backdrop.
+
+2. **Choose or Upload a Backdrop:**
+   - In the stage area (the large white space where your sprites and backdrops are displayed), find the "Choose a backdrop from library" option. It's usually located in the bottom-left corner.
+   - Click on it to open the backdrop library. Here, you can choose from a variety of pre-made backdrops.
+   - If you want to use your own image as a backdrop, click on the "Upload Backdrop" button, which allows you to upload an image from your computer.
+
+3. **Select and Add the Backdrop:**
+   - If you're choosing from the library, click on the backdrop you want to use, and it will be added to your project.
+   - If you're uploading your own image, select the image from your computer, and it will be added as a new backdrop.
+
+
+Adding backdrops allows you to create more engaging and visually appealing projects in Scratch, enhancing the overall experience for your users.
+
 # 3. Five images
+
+![Google](img/rpsls_google.png)
 
 Search the internet for 5 images of hands representing the different options for playing Rock, Paper, Scissors, Lizard, Spock. The images should have appropriate quality and resolution.
 
@@ -42,6 +64,8 @@ Each of the 5 images should be in a separate PNG file with the following names:
     scissors.png
     lizard.png
     spock.png
+
+If the objects Rock, Paper, Scissors, Lizard, and Spock appear together in a single image, you can make 5 cuts of the image using GIMP or another image editor.
 
 ## 4. Edit the pictures
 
@@ -78,7 +102,7 @@ Program the necessary code in the referee and each hand so that, when the space 
 
 ![Test](img/rpsls_animation.gif)
 
-Test that everything works correctly.
+Test that everything works correctly. The animation of the hands should start when the **space key** is pressed.
 
 ## 9. Download the Scratch project file (.sb3)
 
