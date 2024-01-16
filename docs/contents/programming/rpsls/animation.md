@@ -96,7 +96,26 @@ Use the 5 prepared images to define 5 costumes for each hand in Scratch.
 
 Program the necessary code in the referee and each hand so that, when the space key is pressed, the animation starts simultaneously in each hand and ends with a random option.
 
-![Hand animation](img/rpsls_animation.png)
+<!-- ![Hand animation](img/rpsls_animation.png)-->
+
+### Exercise
+
+Use the blocksin the image to program the animation.
+
+![Hand animation puzzle](img/rpsls_animation_puzzle.png)
+
+This is the algorithm that you have to program:
+
+    when space key pressed
+        say(Rock, Paper, Scissors, Lizard, Spock!)
+        MoveHand
+
+    define MoveHand
+        repeat(10)
+            playerA_move = pick_random(1,5)
+            costume = playerA_move
+            wait 0.1 seconds
+        SayMove
 
 ## 8. Test it!
 
