@@ -21,7 +21,7 @@ nav:
   #  - 'Topic'
 - 'Programming':
   - 'Introduction to Programming' : 'contents/programming/intro.md' 
-  - 'Project RPSLS':
+  - 'Project Rock Paper Scissors Lizard Spock':
     - '0. The Project' : 'contents/programming/rpsls/project.md'
     - '1. The Game' : 'contents/programming/rpsls/thegame.md'
     - '2. Graphics and Animation' : 'contents/programming/rpsls/animation.md'
