@@ -4,32 +4,32 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>How Engineering Robots Works - Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</title>
-    <link rel="stylesheet" href="../../css/theme.css" />
-    <link rel="stylesheet" href="../../css/theme_extra.css" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>3. Logic and Control - Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
-        <link href="../../css/ict.css" rel="stylesheet" />
+        <link href="../../../css/ict.css" rel="stylesheet" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "How Engineering Robots Works";
-        var mkdocs_page_input_path = "contents/robotics/crashcourse_robots_engineering.md";
+        var mkdocs_page_name = "3. Logic and Control";
+        var mkdocs_page_input_path = "contents/programming/rpsls/logic.md";
         var mkdocs_page_url = null;
       </script>
     
-    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <script src="../../../js/jquery-3.6.0.min.js" defer></script>
     <!--[if lt IE 9]>
-      <script src="../../js/html5shiv.min.js"></script>
+      <script src="../../../js/html5shiv.min.js"></script>
     <![endif]-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
       <script>hljs.initHighlightingOnLoad();</script> 
- <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+ <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
         html.glightbox-open { overflow: initial; height: 100%; }
         .gslide-title { margin-top: 0px; user-select: text; }
         .gslide-desc { color: #666; user-select: text; }
         .gslide-image img { background: white; }
-        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+        </style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
 
 <body class="wy-body-for-nav" role="document">
 
@@ -37,10 +37,10 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="../..">
-          <img src="../../images/floppy-ict2.png" class="logo" alt="Logo"/>
+          <a href="../../..">
+          <img src="../../../images/floppy-ict2.png" class="logo" alt="Logo"/>
         </a><div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
   </form>
 </div>
@@ -49,29 +49,31 @@
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption"><span class="caption-text">Artificial Intelligence</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../ai/intro.html">Introduction to AI</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../ai/intro.html">Introduction to AI</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Programming</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../programming/intro.html">Introduction to Programming</a>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction to Programming</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="#">Project Rock Paper Scissors Lizard Spock</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../programming/rpsls/project.html">0. The Project</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Project Rock Paper Scissors Lizard Spock</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="project.html">0. The Project</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../programming/rpsls/thegame.html">1. The Game</a>
+                <li class="toctree-l2"><a class="reference internal" href="thegame.html">1. The Game</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../programming/rpsls/animation.html">2. Graphics and Animation</a>
+                <li class="toctree-l2"><a class="reference internal" href="animation.html">2. Graphics and Animation</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../programming/rpsls/logic.html">3. Logic and Control</a>
+                <li class="toctree-l2 current"><a class="reference internal current" href="logic.html">3. Logic and Control</a>
+    <ul class="current">
+    </ul>
                 </li>
     </ul>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Robotics</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction to Robotics</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../robotics/intro.html">Introduction to Robotics</a>
                   </li>
               </ul>
       </div>
@@ -81,14 +83,16 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../..">Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</a>
+          <a href="../../..">Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
-      <li>How Engineering Robots Works</li>
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Programming &raquo;</li>
+          <li>Project Rock Paper Scissors Lizard Spock &raquo;</li>
+      <li>3. Logic and Control</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -97,16 +101,15 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="how-engineering-robots-works">How Engineering Robots Works</h1>
-<h2 id="video-3-how-engineering-robots-works-crash-course-engineering-33">Video #3: How Engineering Robots Works (Crash Course Engineering #33)</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uNfUAJBuZ0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<blockquote>
-<p>In this episode we looked at robots and the engineering principles of robots. We learned how robots use sensors to interpret their environment, how actuators and effectors allow a robot to manipulate the objects around it to accomplish a task, and how computers coordinate the efforts of the two.</p>
-</blockquote>
+                <h1 id="logic-and-control">Logic and Control</h1>
+<p>Coming soon...</p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="animation.html" class="btn btn-neutral float-left" title="2. Graphics and Animation"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../robotics/intro.html" class="btn btn-neutral float-right" title="Introduction to Robotics">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -128,13 +131,17 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="animation.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../robotics/intro.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
-    <script>var base_url = '../..';</script>
-    <script src="../../js/theme_extra.js" defer></script>
-    <script src="../../js/theme.js" defer></script>
-      <script src="../../search/main.js" defer></script>
+    <script>var base_url = '../../..';</script>
+    <script src="../../../js/theme_extra.js" defer></script>
+    <script src="../../../js/theme.js" defer></script>
+      <script src="../../../search/main.js" defer></script>
     <script defer>
         window.onload = function () {
             SphinxRtdTheme.Navigation.enable(true);
