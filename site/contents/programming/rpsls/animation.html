@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>2. Graphics and Animation - Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../../css/ict.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "2. Graphics and Animation";
+        var mkdocs_page_input_path = "contents/programming/rpsls/animation.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+ <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../..">
+          <img src="../../../images/floppy-ict2.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Artificial Intelligence</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../ai/intro.html">Introduction to AI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Programming</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction to Programming</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Project Rock Paper Scissors Lizard Spock</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="project.html">0. The Project</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="thegame.html">1. The Game</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="animation.html">2. Graphics and Animation</a>
+    <ul class="current">
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Robotics</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../robotics/intro.html">Introduction to Robotics</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Programming &raquo;</li>
+          <li>Project Rock Paper Scissors Lizard Spock &raquo;</li>
+      <li>2. Graphics and Animation</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="programming-graphics-and-animation">Programming Graphics and Animation</h1>
+<p><a class="glightbox" href="img/rpsls_animation.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Test" src="img/rpsls_animation.gif" /></a></p>
+<p>In this stage of the project, we will program the animation of both hands. When we press the space key, the two hands will start displaying various random positions (rock, paper, scissors, lizard, Spock). Finally, one fixed hand position will remain. In other words, in this version of the game, the machine plays against itself, showing two random moves, one for player A and another for player B.</p>
+<h1 id="the-checklist">The Checklist</h1>
+<ol>
+<li>Create the game project in Scratch on its <strong>web version</strong>: <a href="https://scratch.mit.edu">scratch.mit.edu</a>.</li>
+<li>First, choose a background for the game and insert text in the bottom right corner with the names of the programming team members (pair).</li>
+<li>Search the internet for 5 images of hands representing the different options for playing Rock, Paper, Scissors, Lizard, Spock. The images should have appropriate quality and resolution.</li>
+<li>Each of the 5 images should be in a separate PNG file with the following names: rock.png, paper.png, scissors.png, lizard.png, and spock.png. Modify the images if necessary to have a transparent background. You can remove the background using Scratch tools or other tools like GIMP or websites such as <a href="https://www.remove.bg/es">www.remove.bg/es</a>.</li>
+<li>Create 3 sprites in Scratch: one for the game referee (a person) and two for each hand (player A and B).</li>
+<li>Use the 5 prepared images to define 5 costumes for each hand in Scratch.</li>
+<li>Program the necessary code in the referee and each hand so that, when the space key is pressed, the animation starts simultaneously in each hand and ends with a random option.</li>
+<li>Test that everything works correctly.</li>
+<li>Download the Scratch project file (.sb3) and rename it according to the last names and names of the members 9. 1 and 2 of the team: LastName1FirstName1_LastName2FirstName2.sb3 (for example: PérezJuan_LópezAna.sb3)</li>
+<li>Attach submit the .sb3 file here.</li>
+</ol>
+<h2 id="1-scratch">1. Scratch</h2>
+<p><a class="glightbox" href="img/scratch_web.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Scratch" src="img/scratch_web.png" /></a></p>
+<p>Scratch is a visual programming language and an online community developed by the MIT Media Lab. It is designed to be user-friendly, especially for beginners, allowing them to create interactive stories, games, and animations without the need for traditional coding. Scratch uses a drag-and-drop interface where users snap together blocks of code, making it accessible to people of all ages.</p>
+<p>You can use Scratch online. The platform is web-based, and you can access it through your web browser. This means you don't need to download or install any software to start programming in Scratch. The online version allows users to create, share, and remix projects, fostering a collaborative and creative learning environment. You can find the Scratch platform at the official website: <a href="https://scratch.mit.edu/">scratch.mit.edu/</a>.</p>
+<h1 id="2-the-background">2. The Background</h1>
+<p><a class="glightbox" href="img/rpsls_bg.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Scratch" src="img/rpsls_bg.png" /></a></p>
+<p>First, choose a background for the game and insert text in the bottom right corner with the names of the</p>
+<h1 id="3-five-images">3. Five images</h1>
+<p>Search the internet for 5 images of hands representing the different options for playing Rock, Paper, Scissors, Lizard, Spock. The images should have appropriate quality and resolution.</p>
+<p>Each of the 5 images should be in a separate PNG file with the following names:</p>
+<pre><code>rock.png
+paper.png
+scissors.png
+lizard.png
+spock.png
+</code></pre>
+<h2 id="4-edit-the-pictures">4. Edit the pictures</h2>
+<p>Modify the images if necessary to have a transparent background. You can remove the background using Scratch tools or other tools like GIMP or websites such as <a href="https://www.remove.bg/es">www.remove.bg/es</a>.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2bayy0ZoPqM?si=oQ4uhBakdWHni6T7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p><br/></p>
+<h2 id="5-the-sprites">5. The Sprites</h2>
+<p><a class="glightbox" href="img/rpsls_3sprites.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Three spries" src="img/rpsls_3sprites.png" /></a></p>
+<p>Create 3 sprites in Scratch: one for the game referee (a person) and two for each hand (player A and B).</p>
+<p>In Scratch, a sprite is a graphic object or character that can be programmed to perform various actions. Sprites are the interactive elements in a Scratch project, and they can be customized and controlled using Scratch's visual programming language.</p>
+<p>Each sprite has its own set of scripts (programming instructions) that dictate its behavior. Users can create or choose sprites from Scratch's library, which includes a variety of characters, animals, objects, and more. Sprites can be moved, rotated, and resized, and they can respond to different events or user inputs, such as keyboard presses or mouse clicks.</p>
+<p>In the context of a game like Rock Paper Scissors Lizard Spock, sprites represent the hands making different gestures, and their movements and positions.</p>
+<h2 id="6-five-costumes-rock-paper-scissors-lizard-and-spock">6. Five costumes: rock, paper, scissors, lizard, and Spock</h2>
+<p>Use the 5 prepared images to define 5 costumes for each hand in Scratch.</p>
+<p><a class="glightbox" href="img/rpsls_costumes.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Hand costumes" src="img/rpsls_costumes.png" /></a></p>
+<h2 id="7-the-animation-code">7. The animation code</h2>
+<p>Program the necessary code in the referee and each hand so that, when the space key is pressed, the animation starts simultaneously in each hand and ends with a random option.</p>
+<p><a class="glightbox" href="img/rpsls_animation.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Hand animation" src="img/rpsls_animation.png" /></a></p>
+<h2 id="8-test-it">8. Test it!</h2>
+<p><a class="glightbox" href="img/rpsls_animation.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Test" src="img/rpsls_animation.gif" /></a></p>
+<p>Test that everything works correctly.</p>
+<h2 id="9-download-the-scratch-project-file-sb3">9. Download the Scratch project file (.sb3)</h2>
+<p><a class="glightbox" href="img/scratch_save.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Save to your computer" src="img/scratch_save.png" /></a></p>
+<p>Download the Scratch project file (.sb3) and rename it according to the last names and names of the members 1 and 2 of the team:</p>
+<pre><code>LastName1FirstName1_LastName2FirstName2.sb3
+</code></pre>
+<p>For example:</p>
+<pre><code>PérezJuan_LópezAna.sb3
+</code></pre>
+<h2 id="10-turn-in-your-project">10. Turn in your project</h2>
+<p>Attach and submit the .sb3 file. <a href="https://support.microsoft.com/en-au/topic/turn-in-an-assignment-in-microsoft-teams-e25f383a-b747-4a0b-b6d5-a2845a52092b">This is how</a>.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="thegame.html" class="btn btn-neutral float-left" title="1. The Game"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../robotics/intro.html" class="btn btn-neutral float-right" title="Introduction to Robotics">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="thegame.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../robotics/intro.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../../..';</script>
+    <script src="../../../js/theme_extra.js" defer></script>
+    <script src="../../../js/theme.js" defer></script>
+      <script src="../../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
