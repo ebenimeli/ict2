@@ -171,7 +171,23 @@ spock.png
 <p><a class="glightbox" href="img/rpsls_costumes.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Hand costumes" src="img/rpsls_costumes.png" /></a></p>
 <h2 id="7-the-animation-code">7. The animation code</h2>
 <p>Program the necessary code in the referee and each hand so that, when the space key is pressed, the animation starts simultaneously in each hand and ends with a random option.</p>
-<p><a class="glightbox" href="img/rpsls_animation.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Hand animation" src="img/rpsls_animation.png" /></a></p>
+<!-- ![Hand animation](img/rpsls_animation.png)-->
+
+<h3 id="exercise">Exercise</h3>
+<p>Use the blocksin the image to program the animation.</p>
+<p><a class="glightbox" href="img/rpsls_animation_puzzle.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Hand animation puzzle" src="img/rpsls_animation_puzzle.png" /></a></p>
+<p>This is the algorithm that you have to program:</p>
+<pre><code>when space key pressed
+    say(Rock, Paper, Scissors, Lizard, Spock!)
+    MoveHand
+
+define MoveHand
+    repeat(10)
+        playerA_move = pick_random(1,5)
+        costume = playerA_move
+        wait 0.1 seconds
+    SayMove
+</code></pre>
 <h2 id="8-test-it">8. Test it!</h2>
 <p><a class="glightbox" href="img/rpsls_animation.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Test" src="img/rpsls_animation.gif" /></a></p>
 <p>Test that everything works correctly. The animation of the hands should start when the <strong>space key</strong> is pressed.</p>
