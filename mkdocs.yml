@@ -25,7 +25,7 @@ nav:
     - '0. The Project' : 'contents/programming/rpsls/project.md'
     - '1. The Game' : 'contents/programming/rpsls/thegame.md'
     - '2. Graphics and Animation' : 'contents/programming/rpsls/animation.md'
-    - '3. Logic and Control' : 'contents/programming/rpsls/logic.md'
+    - '3. Logic and Flow Control' : 'contents/programming/rpsls/logic.md'
     - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
 #  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
 #  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
