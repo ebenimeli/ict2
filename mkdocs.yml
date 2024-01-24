@@ -94,6 +94,7 @@ theme:
 plugins:
   - glightbox
   - search
+  - mermaid2
   #- pandoc
   #pandoc:
   # - combined: true
@@ -101,6 +102,13 @@ plugins:
 markdown_extensions:
   - attr_list
   - sane_lists
-
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 extra_css:
   - css/ict.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js
