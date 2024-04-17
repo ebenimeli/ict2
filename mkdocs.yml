@@ -55,26 +55,26 @@ nav:
   - 'Introduction to Robotics' : 'contents/robotics/intro.md' 
 #  - 'Robot assembly':
 #    - 'Item'
-#  - 'Introduction to Robotics':
-#    - 'What is a robot?' : 'contents/robotics/robots.md'
-#    - 'Robots and AI' : 'contents/robotics/robots_ai.md'
-#    - 'Robots' : 'contents/robotics/crashcourse_robots.md'
-#    - 'Robotics and AI' : 'contents/robotics/crashcourse_robotics_ai.md'
-#    - 'How Engineering Robots Works' : 'contents/robotics/crashcourse_robots_engineering.md'
-#  - 'Control of robotic systems':
-#    - 'Introduction to mBlock' : 'contents/robotics/mblock.md'
-#  - 'Sensors, actuators and controllers':
-#    - 'Introduction' : 'contents/robotics/intro_sens_act_contr.md'
-#    - 'Sensors' : 'contents/robotics/sensors.md'
-#    - 'Actuators' : 'contents/robotics/actuators.md'
-#    - 'Controllers' : 'contents/robotics/controllers.md'
-#    - 'mBot' : 'contents/robotics/mbot.md'
+  - 'Introduction to Robotics':
+    - 'What is a robot?' : 'contents/robotics/robots.md'
+    - 'Robots and AI' : 'contents/robotics/robots_ai.md'
+    - 'Robots' : 'contents/robotics/crashcourse_robots.md'
+    - 'Robotics and AI' : 'contents/robotics/crashcourse_robotics_ai.md'
+    - 'How Engineering Robots Works' : 'contents/robotics/crashcourse_robots_engineering.md'
+  - 'Control of robotic systems':
+    - 'Introduction to mBlock' : 'contents/robotics/mblock.md'
+  - 'Sensors, actuators and controllers':
+    - 'Introduction' : 'contents/robotics/intro_sens_act_contr.md'
+    - 'Sensors' : 'contents/robotics/sensors.md'
+    - 'Actuators' : 'contents/robotics/actuators.md'
+    - 'Controllers' : 'contents/robotics/controllers.md'
+    - 'mBot' : 'contents/robotics/mbot.md'
 #  - 'Loading and execution of algorithms in robots':
 #    - 'Item'
 #  - 'Robotic systems in experimentation with designed prototypes':
 #    - 'Item'
-#  - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
-#  - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
+  - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
+  - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
 #- 'Programación Didáctica':
 #    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
 - 'More':
