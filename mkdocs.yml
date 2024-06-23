@@ -6,10 +6,14 @@ nav:
 #    - 'The Turing Test': 'contents/ai/the-turing-test.md'
 #    - 'AI terms' : 'contents/ai/terms.md'
   #  - 'Activity 1. The Turing Test': 'contents/ai/activity-turing.md'  
-  #- 'Sensors, typology and applications':
-  #  - 'Sensors': 'contents/ai/Sensors.md'
-  #  - 'Types of sensors': 'contents/ai/types-of-sensors.md'
-  #  - 'Applications': 'contents/ai/sensors-applications.md'
+- 'Learning in Biological Systems':
+  - 'Learning in Biological Systems': 'contents/ai/ai-bio.md'
+  - 'Decisions and Free Will': 'contents/ai/ai-decision.md'
+- 'Sensors, typology and applications':
+  - 'Sensors': 'contents/ai/Sensors.md'
+  - 'Types of sensors': 'contents/ai/types-of-sensors.md'
+  - 'Applications': 'contents/ai/sensors-applications.md'
+- 'AI Fundamentals. Decision Trees, Big Data and Neural Networks': 'contents/ai/ai-fundamentals.md'
   #- 'Initial techniques of AI: expert systems, neural networks and machine learning':
   #  - 'Topic'
   #- 'Automatic information processing':
