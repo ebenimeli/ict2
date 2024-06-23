@@ -45,3 +45,35 @@ Neural networks and decision trees are both important tools in AI. While decisio
 ## Conclusion
 
 Neural networks are a key technology in AI, enabling systems to recognize patterns, make decisions, and learn from data. By understanding how they work and seeing real-life examples, we can appreciate their importance in various fields. Neural networks, along with decision trees and big data, form the foundation of modern AI, making it possible to create smart and efficient systems that improve our lives.
+
+## Exercises
+
+1. **What are the main layers of a neural network?**
+
+   - A) Input layer, Output layer, Surface layer
+   - B) Input layer, Hidden layers, Output layer
+   - C) Output layer, Middle layer, End layer
+   - D) Start layer, Middle layer, End layer
+
+<!--  **Correct answer:** B) Input layer, Hidden layers, Output layer-->
+
+2. **What is the purpose of the output layer in a neural network?**
+
+   - A) To collect data
+   - B) To process data
+   - C) To provide the final result
+   - D) To adjust weights
+
+<!--   **Correct answer:** C) To provide the final result-->
+
+3. **What is the process of adjusting connections in a neural network called?**
+
+<!-- **Answer:** Training -->
+
+4. **What technology do voice assistants like Siri and Alexa use to understand speech?**
+
+<!--   **Answer:** Neural Networks-->
+
+5. **Explain how self-driving cars use neural networks.**
+
+<!--   **Answer:** Self-driving cars use neural networks to navigate and make driving decisions by processing data from sensors, such as other vehicles, pedestrians, and road signs.-->
