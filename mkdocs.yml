@@ -13,7 +13,11 @@ nav:
   - 'Sensors': 'contents/ai/Sensors.md'
   - 'Types of sensors': 'contents/ai/types-of-sensors.md'
   - 'Applications': 'contents/ai/sensors-applications.md'
-- 'AI Fundamentals. Decision Trees, Big Data and Neural Networks': 'contents/ai/ai-fundamentals.md'
+- 'Fundamentals of AI':
+  - 'Fundamentals of AI' : 'contents/ai/ai-fundamentals.md'
+  - 'Decision Trees' : 'contents/ai/decision-trees.md'  
+  - 'Big Data' : 'contents/ai/big-data.md'
+  - 'Neural Networks' : 'contents/ai/neural-networks.md'
   #- 'Initial techniques of AI: expert systems, neural networks and machine learning':
   #  - 'Topic'
   #- 'Automatic information processing':
