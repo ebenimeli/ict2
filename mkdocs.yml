@@ -35,7 +35,10 @@ nav:
   - '0. Introduction to Programming' : 'contents/programming/intro.md' 
   - '1. Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
   - '2. Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
-    - 'Introduction' : 'contents/ai/abstraction.md'
+    - 'Introduction' : 'contents/programming/abstraction.md'
+    - 'Abstraction and sequencing' : 'contents/programming/abstraction_seq.md'
+    - 'Algorithms' : 'contents/programming/algorithms.md'
+    - 'Natural Language and Flow Diagrams' : 'contents/programming/nl-flowdiagrams.md'
   - '3. Pattern detection and reuse. Generalization':
     - 'Item'
   - '4. Sustainability and inclusion as software design requirements':
