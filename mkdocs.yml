@@ -32,7 +32,30 @@ nav:
   - '8. Virtual reality techniques':
     - 'Virtual reality techniques': 'contents/ai/vr-techniques.md'
 - 'Programming':
-  - 'Introduction to Programming' : 'contents/programming/intro.md' 
+  - '0. Introduction to Programming' : 'contents/programming/intro.md' 
+  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
+  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
+    - 'Introduction' : 'contents/ai/abstraction.md'
+  - 'Pattern detection and reuse. Generalization':
+    - 'Item'
+  - 'Sustainability and inclusion as software design requirements':
+    - 'Item'
+  - 'Program flow control structures':
+    - 'Item'
+  - 'Variables, constants, conditions and operators':
+    - 'Item'
+  - 'Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
+    - 'Item'
+  - 'Mobile device application programming':
+    - 'Item'
+  - 'Software evaluation and maintenance':
+    - 'Item'
+  - 'Software licenses. Free software and proprietary software':
+    - 'Item'
+  - 'Controller card simulators':
+    - 'Item'
+  - 'Initiative, self-confidence and metacognition in the software development learning process':
+    - 'Item'
   - 'Project Rock Paper Scissors Lizard Spock':
     - '0. The Project' : 'contents/programming/rpsls/project.md'
     - '1. The Game' : 'contents/programming/rpsls/thegame.md'
@@ -40,29 +63,7 @@ nav:
     - '3. Logic and Flow Control' : 'contents/programming/rpsls/logic.md'
     - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
     - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
-#  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
-#  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
-#    - 'Item'
-#  - 'Pattern detection and reuse. Generalization':
-#    - 'Item'
-#  - 'Sustainability and inclusion as software design requirements':
-#    - 'Item'
-#  - 'Program flow control structures':
-#    - 'Item'
-#  - 'Variables, constants, conditions and operators':
-#    - 'Item'
-#  - 'Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
-#    - 'Item'
-#  - 'Mobile device application programming':
-#    - 'Item'
-#  - 'Software evaluation and maintenance':
-#    - 'Item'
-#  - 'Software licenses. Free software and proprietary software':
-#    - 'Item'
-#  - 'Controller card simulators':
-#    - 'Item'
-#  - 'Initiative, self-confidence and metacognition in the software development learning process':
-#    - 'Item'
+
 - 'Robotics':
   - 'Introduction to Robotics' : 'contents/robotics/intro.md' 
 #  - 'Robot assembly':
