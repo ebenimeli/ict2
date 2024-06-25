@@ -19,3 +19,9 @@ ul, ol {
 h2 {
     border-bottom: 1px solid steelblue;
 }
+
+div.example {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}

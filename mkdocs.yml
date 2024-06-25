@@ -33,28 +33,28 @@ nav:
     - 'Virtual reality techniques': 'contents/ai/vr-techniques.md'
 - 'Programming':
   - '0. Introduction to Programming' : 'contents/programming/intro.md' 
-  - 'Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
-  - 'Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
+  - '1. Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
+  - '2. Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
     - 'Introduction' : 'contents/ai/abstraction.md'
-  - 'Pattern detection and reuse. Generalization':
+  - '3. Pattern detection and reuse. Generalization':
     - 'Item'
-  - 'Sustainability and inclusion as software design requirements':
+  - '4. Sustainability and inclusion as software design requirements':
     - 'Item'
-  - 'Program flow control structures':
+  - '5. Program flow control structures':
     - 'Item'
-  - 'Variables, constants, conditions and operators':
+  - '6. Variables, constants, conditions and operators':
     - 'Item'
-  - 'Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
+  - '7. Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
     - 'Item'
-  - 'Mobile device application programming':
+  - '8. Mobile device application programming':
     - 'Item'
-  - 'Software evaluation and maintenance':
+  - '9. Software evaluation and maintenance':
     - 'Item'
-  - 'Software licenses. Free software and proprietary software':
+  - '10. Software licenses. Free software and proprietary software':
     - 'Item'
-  - 'Controller card simulators':
+  - '11. Controller card simulators':
     - 'Item'
-  - 'Initiative, self-confidence and metacognition in the software development learning process':
+  - '12. Initiative, self-confidence and metacognition in the software development learning process':
     - 'Item'
   - 'Project Rock Paper Scissors Lizard Spock':
     - '0. The Project' : 'contents/programming/rpsls/project.md'
@@ -65,27 +65,29 @@ nav:
     - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
 
 - 'Robotics':
-  - 'Introduction to Robotics' : 'contents/robotics/intro.md' 
-#  - 'Robot assembly':
-#    - 'Item'
-  - 'Introduction to Robotics':
+  - '0. Introduction to Robotics' :
+    - 'Introduction' : 'contents/robotics/intro.md' 
     - 'What is a robot?' : 'contents/robotics/robots.md'
     - 'Robots and AI' : 'contents/robotics/robots_ai.md'
     - 'Robots' : 'contents/robotics/crashcourse_robots.md'
     - 'Robotics and AI' : 'contents/robotics/crashcourse_robotics_ai.md'
     - 'How Engineering Robots Works' : 'contents/robotics/crashcourse_robots_engineering.md'
-  - 'Control of robotic systems':
+  - '1. Robots: Types, Degrees of Freedom, and Basic Technical Characteristics':
+    - 'Item' : 'contents/robotics/item.md'  
+  - '2. Robot assembly':
+    - 'Item'
+  - '3. Control of robotic systems':
     - 'Introduction to mBlock' : 'contents/robotics/mblock.md'
-  - 'Sensors, actuators and controllers':
+  - '4. Sensors, actuators and controllers':
     - 'Introduction' : 'contents/robotics/intro_sens_act_contr.md'
     - 'Sensors' : 'contents/robotics/sensors.md'
     - 'Actuators' : 'contents/robotics/actuators.md'
     - 'Controllers' : 'contents/robotics/controllers.md'
     - 'mBot' : 'contents/robotics/mbot.md'
-#  - 'Loading and execution of algorithms in robots':
-#    - 'Item'
-#  - 'Robotic systems in experimentation with designed prototypes':
-#    - 'Item'
+  - '5. Loading and execution of algorithms in robots':
+    - 'Item'
+  - '6. Robotic systems in experimentation with designed prototypes':
+    - 'Item'
   - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
   - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
 #- 'Programación Didáctica':
