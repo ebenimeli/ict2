@@ -21,7 +21,19 @@ h2 {
 }
 
 div.example {
-    background-color: lightblue;
+    /*background-color: lightblue;*/
     padding: 10px;
     margin: 5px;
+}
+
+div.nota {
+    /*background-color: #FFFACD;*/
+    /*background-color: lightblue;*/
+    background-color: #CEE7FF;
+    padding: 15px;
+    margin: 5px;
+    margin-bottom: 15px;
+    border-left: solid 7px steelblue;
+    /*font-size: 1.2em;*/
+
 }
