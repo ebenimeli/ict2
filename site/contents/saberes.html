@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<title>Saberes - Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</title>
+<link href="../css/theme.css" rel="stylesheet"/>
+<link href="../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../css/ict.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Saberes";
+        var mkdocs_page_input_path = "contents/saberes.md";
+        var mkdocs_page_url = null;
+      </script>
+<script defer="" src="../js/jquery-3.6.0.min.js"></script>
+<!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="..">
+<img alt="Logo" class="logo" src="../images/floppy-ict2.png"/>
+</a><div role="search">
+<form action="../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<p class="caption"><span class="caption-text">Programación Didáctica</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal current" href="saberes.html">Saberes</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="#bloque-1-inteligencia-artificial-ce1"> Bloque 1. Inteligencia Artificial. CE1</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#bloque-2-programacion-ce2"> Bloque 2. Programación. CE2</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#bloque-3-robotica-ce3"> Bloque 3. Robótica. CE3</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="criterios.html">Criterios de evaluación</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Artificial Intelligence</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ai/intro.html">0. Introduction to AI</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">1. Learning: Biological Systems and AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="ai/ai-bio.html">Learning in Biological Systems: Decisions and Free Will</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ai/learning-aipr.html">Learning, AI, Programming, and Robots</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">2. Sensors, typology and applications</a>
+<ul>
+<li class="toctree-l2"><a class="" href="ai/Sensors.md">Sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ai/types-of-sensors.html">Types of sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ai/sensors-applications.html">Applications</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">3. Fundamentals of AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="ai/ai-fundamentals.html">Fundamentals of AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ai/decision-trees.html">Decision Trees</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ai/big-data.html">Big Data</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ai/neural-networks.html">Neural Networks</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">4. Basic techniques of AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="ai/expert-systems.html">Expert systems</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ai/neural-networks-tech.html">Neural networks</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ai/machine-learning.html">Machine learning</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">5. Automatic information processing</a>
+<ul>
+<li class="toctree-l2"><a class="" href="ai/auto-inf-processing.md">Automatic information processing</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">6. Equity and inclusion in AI systems. Biases in AI</a>
+<ul>
+<li class="toctree-l2"><a class="" href="ia/equity-inclusion.md">Equity and inclusion in AI systems</a>
+</li>
+<li class="toctree-l2"><a class="" href="ia/biases-ai.md">Biases in AI</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">7. Social and ethical implications of artificial intelligence</a>
+<ul>
+<li class="toctree-l2"><a class="" href="ai/social-ethical-ai.md">Social and ethical implications of artificial intelligence</a>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Programming</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="programming/intro.html">0. Introduction to Programming</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="programming/problem-modeling.html">1. Interpretation of reality through problem modeling</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">2. Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="programming/abstraction.html">Introduction</a>
+</li>
+<li class="toctree-l2"><a class="" href="programming/abstraction_seq.md">Abstraction and sequencing</a>
+</li>
+<li class="toctree-l2"><a class="" href="programming/algorithms.md">Algorithms</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="programming/nl-flowdiagrams.html">Natural Language and Flow Diagrams</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">3. Pattern detection and reuse. Generalization</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">4. Sustainability and inclusion as software design requirements</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">5. Program flow control structures</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">6. Variables, constants, conditions and operators</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">7. Introduction to programming in high-level languages. Types of languages. Syntax and semantics</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">8. Mobile device application programming</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">9. Software evaluation and maintenance</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">10. Software licenses. Free software and proprietary software</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">11. Controller card simulators</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">12. Initiative, self-confidence and metacognition in the software development learning process</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">Project Rock Paper Scissors Lizard Spock</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="programming/rpsls/project.html">0. The Project</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="programming/rpsls/thegame.html">1. The Game</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="programming/rpsls/animation.html">2. Graphics and Animation</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="programming/rpsls/logic.html">3. Logic and Flow Control</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="programming/rpsls/final.html">4. Final Version and Testing</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="programming/rpsls/rps_tutorial.html">Tutorial: Rock, Paper, Scissors</a>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Robotics</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="#">0. Introduction to Robotics</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="robotics/intro.html">Introduction</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robotics/robots.html">What is a robot?</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robotics/robots_ai.html">Robots and AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robotics/crashcourse_robots.html">Robots</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robotics/crashcourse_robotics_ai.html">Robotics and AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robotics/crashcourse_robots_engineering.html">How Engineering Robots Works</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">1. Robots: Types, Degrees of Freedom, and Basic Technical Characteristics</a>
+<ul>
+<li class="toctree-l2"><a class="" href="robotics/item.md">Item</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">2. Robot assembly</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">3. Control of robotic systems</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="robotics/mblock.html">Introduction to mBlock</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">4. Sensors, actuators and controllers</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="robotics/intro_sens_act_contr.html">Introduction</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robotics/sensors.html">Sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robotics/actuators.html">Actuators</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robotics/controllers.html">Controllers</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robotics/mbot.html">mBot</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#">5. Loading and execution of algorithms in robots</a>
+<ul>
+<li class="toctree-l2"><a class="" href="../Item">None</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="robotics/robotresearch.html">Project (I): Robot Research</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="robotics/mbotcode.html">Project (II): mBot Robot Programming</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">More</span></p>
+<ul>
+<li class="toctree-l1"><a class="" href="https://www.esferatic.com">Blog</a>
+</li>
+<li class="toctree-l1"><a class="" href="https://www.instagram.com/esferatic">Instagram</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="..">Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href=".."></a> »</li>
+<li>Programación Didáctica »</li>
+<li>Saberes</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<h1 id="saberes-basicos-iapr2">Saberes básicos IAPR2</h1>
+<h2 id="bloque-1-inteligencia-artificial-ce1"><i class="fa fa-solid fa-desktop"></i> Bloque 1. Inteligencia Artificial. CE1</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Id.</th>
+<th align="left">Contenido</th>
+<th>2.º</th>
+<th>3.º</th>
+<th>T1</th>
+<th>T2</th>
+<th>T3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span>SB1.1</span></td>
+<td align="left"><span>El aprendizaje en sistemas biológicos.<br/>Decisiones y libre albedrío.</span></td>
+<td>•</td>
+<td></td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB1.2</td>
+<td align="left">Sensores, tipología y aplicaciones.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left"><span>SB1.3</span></td>
+<td align="left">Fundamentos de la IA. Árboles de decisión,<br/> <em>big data</em> y redes neuronales.</td>
+<td>•</td>
+<td></td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB1.4</td>
+<td align="left">Técnicas iniciales de IA: sistemas expertos,<br/> redes neuronales y aprendizaje automático.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB1.5</td>
+<td align="left">Procesado automático de la información.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB1.6</td>
+<td align="left">Equidad e inclusión en sistemas de IA.<br/> Sesgos en IA.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB1.7</td>
+<td align="left">Implicaciones sociales y éticas de<br/>la inteligencia artificial.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left"><span class="disabled">SB1.8</span></td>
+<td align="left"><span class="disabled">Técnicas de virtualización de<br/>la realidad.</span></td>
+<td></td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+</tbody>
+</table>
+<h2 id="bloque-2-programacion-ce2"><i class="fa fa-solid fa-code"></i> Bloque 2. Programación. CE2</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Id.</th>
+<th align="left">Contenido</th>
+<th>2.º</th>
+<th>3.º</th>
+<th>T1</th>
+<th>T2</th>
+<th>T3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><span>SB2.1</span></td>
+<td align="left"><span>Habilidades del pensamiento computacional</span></td>
+<td>•</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td align="left">SB2.2</td>
+<td align="left">Interpretación de la realidad mediante <br/>modelado de problemas</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB2.3</td>
+<td align="left">Abstracción, secuenciación, algorítmica <br/>y su representación con lenguaje natural <br/>y diagramas de flujo</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left"><span class="disabled">SB2.4</span></td>
+<td align="left"><span class="disabled">Detección y reutilización de patrones. <br/>Generalización.</span></td>
+<td></td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left"><span class="disabled">SB2.5</span></td>
+<td align="left"><span class="disabled">Sostenibilidad e inclusión como requisitos <br/>del diseño del software</span></td>
+<td></td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB2.6</td>
+<td align="left">Estructuras de control del <br/>flujo del programa.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB2.7</td>
+<td align="left">Variables, constantes, <br/>condiciones y operadores</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB2.8</td>
+<td align="left">Programación por bloques: composición <br/>de las estructuras básicas y encaje de bloques</td>
+<td>•</td>
+<td></td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left"><span class="disabled">SB2.9</span></td>
+<td align="left"><span class="disabled">Introducción a la programación en <br/>lenguajes de alto nivel. Tipos de lenguajes. <br/>Sintaxis y semántica</span></td>
+<td></td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left"><span class="disabled">SB2.10</span></td>
+<td align="left"><span class="disabled">Programación de aplicaciones <br/>para dispositivos móviles</span></td>
+<td></td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB2.11</td>
+<td align="left">Análisis y validación de software</td>
+<td>•</td>
+<td></td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left"><span class="disabled">SB2.12</span></td>
+<td align="left"><span class="disabled">Evaluación y mantenimiento <br/>de software.</span></td>
+<td></td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB2.13</td>
+<td align="left">Licencias de software. <br/>El software libre y el software propietario.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left"><span class="disabled">SB2.14</span></td>
+<td align="left"><span class="disabled">Simuladores de tarjetas controladoras</span></td>
+<td></td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB2.15</td>
+<td align="left">Iniciativa, autoconfianza <br/>y metacognición en el proceso de aprendizaje <br/>del desarrollo de software.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+</tbody>
+</table>
+<h2 id="bloque-3-robotica-ce3"><i class="fa fa-brands fa-android"></i> Bloque 3. Robótica. CE3</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Id.</th>
+<th align="left">Contenido</th>
+<th>2.º</th>
+<th>3.º</th>
+<th>T1</th>
+<th>T2</th>
+<th>T3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">SB3.1</td>
+<td align="left">Robots: tipos, grados de libertad <br/>y características técnicas básicas</td>
+<td>•</td>
+<td></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td align="left">SB3.2</td>
+<td align="left">Montaje de robots.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB3.3</td>
+<td align="left">Control de sistemas robotizados.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB3.4</td>
+<td align="left">Sensores, actuadores y controladores.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left">SB3.5</td>
+<td align="left">Carga y ejecución de los <br/>algoritmos en robots.</td>
+<td>•</td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+<tr>
+<td align="left"><span class="disabled">SB3.6</span></td>
+<td align="left"><span class="disabled">Sistemas robotizados en la experimentación <br/>con prototipos diseñados</span></td>
+<td></td>
+<td>•</td>
+<td>T1</td>
+<td>T2</td>
+<td>T3</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-right" href="criterios.html" title="Criterios de evaluación">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="criterios.html" style="color: #fcfcfc">Next »</a></span>
+</span>
+</div>
+<script>var base_url = '..';</script>
+<script defer="" src="../js/theme_extra.js"></script>
+<script defer="" src="../js/theme.js"></script>
+<script defer="" src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
+<script defer="" src="../search/main.js"></script>
+<script defer="">
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
