@@ -2,34 +2,35 @@ site_name: Artificial Intelligence, Programming and Robotics (I) - 2.º ESO
 use_directory_urls: false
 nav:
 - 'Artificial Intelligence':
-  - 'Introduction to AI' : 'contents/ai/intro.md' 
+  - '0. Introduction to AI' : 'contents/ai/intro.md' 
 #    - 'The Turing Test': 'contents/ai/the-turing-test.md'
 #    - 'AI terms' : 'contents/ai/terms.md'
   #  - 'Activity 1. The Turing Test': 'contents/ai/activity-turing.md'  
-  - 'Learning: Biological Systems and AI':
+  - '1. Learning: Biological Systems and AI':
     - 'Learning in Biological Systems: Decisions and Free Will': 'contents/ai/ai-bio.md'
     - 'Learning, AI, Programming, and Robots': 'contents/ai/learning-aipr.md'
-  - 'Sensors, typology and applications':
+  - '2. Sensors, typology and applications':
     - 'Sensors': 'contents/ai/Sensors.md'
     - 'Types of sensors': 'contents/ai/types-of-sensors.md'
     - 'Applications': 'contents/ai/sensors-applications.md'
-  - 'Fundamentals of AI':
+  - '3. Fundamentals of AI':
     - 'Fundamentals of AI' : 'contents/ai/ai-fundamentals.md'
     - 'Decision Trees' : 'contents/ai/decision-trees.md'  
     - 'Big Data' : 'contents/ai/big-data.md'
     - 'Neural Networks' : 'contents/ai/neural-networks.md'
-  - 'Basic techniques of AI':
+  - '4. Basic techniques of AI':
     - 'Expert systems' : 'contents/ai/expert-systems.md'
     - 'Neural networks' : 'contents/ai/neural-networks-tech.md'
     - 'Machine learning' : 'contents/ai/machine-learning.md'
-  #  - 'Topic'
-  #- 'Automatic information processing':
-  #  - 'Topic'
-  #- 'Equity and inclusion in AI systems. Biases in AI': 'contents/ia/equity-inclusion.md'
-  #- 'Social and ethical implications of artificial intelligence':
-  #  - 'Topic'
-  #- 'Virtual reality techniques':
-  #  - 'Topic'
+  - '5. Automatic information processing':
+    - 'Automatic information processing' : 'contents/ai/auto-inf-processing.md'
+  - '6. Equity and inclusion in AI systems. Biases in AI':
+    - 'Equity and inclusion in AI systems' : 'contents/ia/equity-inclusion.md'
+    - 'Biases in AI' : 'contents/ia/biases-ai.md'
+  - '7. Social and ethical implications of artificial intelligence':
+    - 'Social and ethical implications of artificial intelligence': 'contents/ai/social-ethical-ai.md'
+  - '8. Virtual reality techniques':
+    - 'Virtual reality techniques': 'contents/ai/vr-techniques.md'
 - 'Programming':
   - 'Introduction to Programming' : 'contents/programming/intro.md' 
   - 'Project Rock Paper Scissors Lizard Spock':
