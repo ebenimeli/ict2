@@ -1,6 +1,9 @@
 site_name: Artificial Intelligence, Programming and Robotics (I) - 2.º ESO
 use_directory_urls: false
 nav:
+- 'Programación Didáctica':
+  - 'Saberes' : 'contents/saberes.md'
+  - 'Criterios de evaluación' : 'contents/criterios.md'
 - 'Artificial Intelligence':
   - '0. Introduction to AI' : 'contents/ai/intro.md' 
 #    - 'The Turing Test': 'contents/ai/the-turing-test.md'
@@ -29,8 +32,8 @@ nav:
     - 'Biases in AI' : 'contents/ia/biases-ai.md'
   - '7. Social and ethical implications of artificial intelligence':
     - 'Social and ethical implications of artificial intelligence': 'contents/ai/social-ethical-ai.md'
-  - '8. Virtual reality techniques':
-    - 'Virtual reality techniques': 'contents/ai/vr-techniques.md'
+#  - '8. Virtual reality techniques':
+#    - 'Virtual reality techniques': 'contents/ai/vr-techniques.md'
 - 'Programming':
   - '0. Introduction to Programming' : 'contents/programming/intro.md' 
   - '1. Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
@@ -89,8 +92,8 @@ nav:
     - 'mBot' : 'contents/robotics/mbot.md'
   - '5. Loading and execution of algorithms in robots':
     - 'Item'
-  - '6. Robotic systems in experimentation with designed prototypes':
-    - 'Item'
+#  - '6. Robotic systems in experimentation with designed prototypes':
+#    - 'Item'
   - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
   - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
 #- 'Programación Didáctica':
