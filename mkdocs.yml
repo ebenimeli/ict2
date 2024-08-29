@@ -113,9 +113,9 @@ nav:
 # - 'Programación Didáctica':
 #    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
 #  - 'Glossary': 'contents/unit06/glossary-ud06.md'
-- 'Programación Didáctica':
-  - 'Saberes' : 'contents/saberes.md'
-  - 'Criterios de evaluación' : 'contents/criterios.md'
+#- 'Programación Didáctica':
+#  - 'Saberes' : 'contents/saberes.md'
+#  - 'Criterios de evaluación' : 'contents/criterios.md'
 - 'More':
   - 'Blog': 'https://www.esferatic.com'
   - 'Instagram': 'https://www.instagram.com/esferatic'
