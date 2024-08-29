@@ -12,6 +12,7 @@ nav:
   - '1. Learning: Biological Systems and AI': # SB1.1
     - 'Learning in Biological Systems: Decisions and Free Will': 'contents/unit01/ai-bio.md'
     - 'Learning, AI, Programming, and Robots': 'contents/unit01/learning-aipr.md'
+    - 'Activity 1.1. Learning in Biological Systems': 'contents/unit01/activity-1-1.md'
   - '2. Sensors, typology and applications': # SB1.2
     - 'Sensors': 'contents/unit01/Sensors.md'
     - 'Types of sensors': 'contents/unit01/types-of-sensors.md'
@@ -27,6 +28,7 @@ nav:
     - 'Machine learning' : 'contents/unit01/machine-learning.md'
   - '5. Automatic information processing': #SB1.5
     - 'Automatic information processing' : 'contents/unit01/auto-inf-processing.md'
+  - 'Glossary': 'contents/unit01/glossary-ud01.md'
 - 'Unit 2. AI Ethics and Inclusion':
   - 'Exploring AI: Ethics, Inclusion, and Virtual Reality': 'contents/unit02/unit2.md'
   - '1. Equity and inclusion in AI systems. Biases in AI': #SB1.6
@@ -36,6 +38,7 @@ nav:
     - 'Social and ethical implications of artificial intelligence': 'contents/unit02/social-ethical-ai.md'
 # - '1.8. Virtual reality techniques': # SB1.8
 #   - 'Virtual reality techniques': 'contents/unit02/vr-techniques.md'
+  - 'Glossary': 'contents/unit02/glossary-ud02.md'
 - 'Unit 3. Algorithms in Programming':
   - 'Modeling, Algorithms, and Patterns in Programming': 'contents/unit03/unit3.md'
   - '1. Computational Thinking Skills' : 'contents/unit03/compskills.md' #SB2.1
