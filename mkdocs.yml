@@ -52,6 +52,7 @@ nav:
   #  - 'Item'
   #- 'Sustainability and inclusion as software design requirements':
   #  - 'Item'
+  - 'Glossary': 'contents/unit03/glossary-ud03.md'
 - 'Unit 4. Programming Fundamentals':
   - 'Programming Fundamentals: Languages, Flow Control, and Variables': 'contents/unit04/unit4.md'
   - '1. Program flow control structures': # SB2.6
@@ -64,6 +65,7 @@ nav:
   #  - 'Item'
   #- '2.10. Mobile device application programming':
   #  - 'Item'
+  - 'Glossary': 'contents/unit04/glossary-ud04.md'
 - 'Unit 5. Software Management':
   - 'Software Management: Applications and Maintenance': 'contents/unit05/unit5.md'
   - '1. Software Analysis and Validation': # SB2.11
@@ -83,6 +85,7 @@ nav:
   #  - '3. Logic and Flow Control' : 'contents/programming/rpsls/logic.md'
   #  - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
   #  - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
+  - 'Glossary': 'contents/unit05/glossary-ud05.md'
 - 'Unit 6. Robotics ':
   - 'Robotics in Action: Assembly, Control, and Programming': 'contents/unit06/unit6.md'
   - '0. Introduction to Robotics' :
@@ -112,6 +115,7 @@ nav:
 # - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
 # - 'Programación Didáctica':
 #    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
+  - 'Glossary': 'contents/unit06/glossary-ud06.md'
 - 'Programación Didáctica':
   - 'Saberes' : 'contents/saberes.md'
   - 'Criterios de evaluación' : 'contents/criterios.md'
