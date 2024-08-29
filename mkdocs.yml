@@ -4,99 +4,112 @@ nav:
 - 'Programación Didáctica':
   - 'Saberes' : 'contents/saberes.md'
   - 'Criterios de evaluación' : 'contents/criterios.md'
-- 'Artificial Intelligence':
-  - '0. Introduction to AI' : 'contents/ai/intro.md' 
-#    - 'The Turing Test': 'contents/ai/the-turing-test.md'
-#    - 'AI terms' : 'contents/ai/terms.md'
-  #  - 'Activity 1. The Turing Test': 'contents/ai/activity-turing.md'  
-  - '1. Learning: Biological Systems and AI':
-    - 'Learning in Biological Systems: Decisions and Free Will': 'contents/ai/ai-bio.md'
-    - 'Learning, AI, Programming, and Robots': 'contents/ai/learning-aipr.md'
-  - '2. Sensors, typology and applications':
-    - 'Sensors': 'contents/ai/Sensors.md'
-    - 'Types of sensors': 'contents/ai/types-of-sensors.md'
-    - 'Applications': 'contents/ai/sensors-applications.md'
-  - '3. Fundamentals of AI':
-    - 'Fundamentals of AI' : 'contents/ai/ai-fundamentals.md'
-    - 'Decision Trees' : 'contents/ai/decision-trees.md'  
-    - 'Big Data' : 'contents/ai/big-data.md'
-    - 'Neural Networks' : 'contents/ai/neural-networks.md'
-  - '4. Basic techniques of AI':
-    - 'Expert systems' : 'contents/ai/expert-systems.md'
-    - 'Neural networks' : 'contents/ai/neural-networks-tech.md'
-    - 'Machine learning' : 'contents/ai/machine-learning.md'
-  - '5. Automatic information processing':
-    - 'Automatic information processing' : 'contents/ai/auto-inf-processing.md'
-  - '6. Equity and inclusion in AI systems. Biases in AI':
-    - 'Equity and inclusion in AI systems' : 'contents/ia/equity-inclusion.md'
-    - 'Biases in AI' : 'contents/ia/biases-ai.md'
-  - '7. Social and ethical implications of artificial intelligence':
-    - 'Social and ethical implications of artificial intelligence': 'contents/ai/social-ethical-ai.md'
-#  - '8. Virtual reality techniques':
-#    - 'Virtual reality techniques': 'contents/ai/vr-techniques.md'
-- 'Programming':
-  - '0. Introduction to Programming' : 'contents/programming/intro.md' 
-  - '1. Interpretation of reality through problem modeling': 'contents/programming/problem-modeling.md'
-  - '2. Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams':
-    - 'Introduction' : 'contents/programming/abstraction.md'
-    - 'Abstraction and sequencing' : 'contents/programming/abstraction_seq.md'
-    - 'Algorithms' : 'contents/programming/algorithms.md'
-    - 'Natural Language and Flow Diagrams' : 'contents/programming/nl-flowdiagrams.md'
-  - '3. Pattern detection and reuse. Generalization':
+- 'Unit 0. Introduction':
+  - '0.1. Introduction to AI, Programming and Robotics' : 'contents/unit01/intro.md' 
+  #    - 'The Turing Test': 'contents/unit01/the-turing-test.md'
+  #    - 'AI terms' : 'contents/unit01/terms.md'
+  #    - 'Activity 1. The Turing Test': 'contents/unit01/activity-turing.md'  
+- 'Unit 1. Sensors and AI':
+  - 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
+  - '1. Learning: Biological Systems and AI': # SB1.1
+    - 'Learning in Biological Systems: Decisions and Free Will': 'contents/unit01/ai-bio.md'
+    - 'Learning, AI, Programming, and Robots': 'contents/unit01/learning-aipr.md'
+  - '2. Sensors, typology and applications': # SB1.2
+    - 'Sensors': 'contents/unit01/Sensors.md'
+    - 'Types of sensors': 'contents/unit01/types-of-sensors.md'
+    - 'Applications': 'contents/unit01/sensors-applications.md'
+  - '3. Fundamentals of AI': # SB1.3
+    - 'Fundamentals of AI' : 'contents/unit01/ai-fundamentals.md'
+    - 'Decision Trees' : 'contents/unit01/decision-trees.md'  
+    - 'Big Data' : 'contents/unit01/big-data.md'
+    - 'Neural Networks' : 'contents/unit01/neural-networks.md'
+  - '4. Basic techniques of AI': #SB1.4
+    - 'Expert systems' : 'contents/unit01/expert-systems.md'
+    - 'Neural networks' : 'contents/unit01/neural-networks-tech.md'
+    - 'Machine learning' : 'contents/unit01/machine-learning.md'
+  - '5. Automatic information processing': #SB1.5
+    - 'Automatic information processing' : 'contents/unit01/auto-inf-processing.md'
+- 'Unit 2. AI Ethics and Inclusion':
+  - 'Exploring AI: Ethics, Inclusion, and Virtual Reality': 'contents/unit02/unit2.md'
+  - '1. Equity and inclusion in AI systems. Biases in AI': #SB1.6
+    - 'Equity and inclusion in AI systems' : 'contents/unit02/equity-inclusion.md'
+    - 'Biases in AI' : 'contents/unit02/biases-ai.md'
+  - '2. Social and ethical implications of artificial intelligence': #SB1.7
+    - 'Social and ethical implications of artificial intelligence': 'contents/unit02/social-ethical-ai.md'
+# - '1.8. Virtual reality techniques': # SB1.8
+#   - 'Virtual reality techniques': 'contents/unit02/vr-techniques.md'
+- 'Unit 3. Algorithms in Programming':
+  - 'Modeling, Algorithms, and Patterns in Programming': 'contents/unit03/unit3.md'
+  - '1. Computational Thinking Skills' : 'contents/unit03/compskills.md' #SB2.1
+  - '2. Interpretation of reality through problem modeling': 'contents/unit03/problem-modeling.md' #SB2.2
+  - '3. Abstraction, sequencing, algorithmic and its representation with natural language and flow diagrams': #SB2.3
+    - 'Introduction' : 'contents/unit03/abstraction.md'
+    - 'Abstraction and sequencing' : 'contents/unit03/abstraction_seq.md'
+    - 'Algorithms' : 'contents/programming/unit03.md'
+    - 'Natural Language and Flow Diagrams' : 'contents/unit03/nl-flowdiagrams.md'
+  #- 'Pattern detection and reuse. Generalization':
+  #  - 'Item'
+  #- 'Sustainability and inclusion as software design requirements':
+  #  - 'Item'
+- 'Unit 4. Programming Fundamentals':
+  - 'Programming Fundamentals: Languages, Flow Control, and Variables': 'contents/unit04/unit4.md'
+  - '1. Program flow control structures': # SB2.6
     - 'Item'
-  - '4. Sustainability and inclusion as software design requirements':
+  - '2. Variables, constants, conditions and operators': #SB2.7
     - 'Item'
-  - '5. Program flow control structures':
+  - '3. Block Programming: Composition of Basic Structures and Block Fitting': # SB2.8
     - 'Item'
-  - '6. Variables, constants, conditions and operators':
+  #- '2.9. Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
+  #  - 'Item'
+  #- '2.10. Mobile device application programming':
+  #  - 'Item'
+- 'Unit 5. Software Management':
+  - 'Software Management: Applications and Maintenance': 'contents/unit05/unit5.md'
+  - '1. Software Analysis and Validation': # SB2.11
     - 'Item'
-  - '7. Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
+  #- '2.12. Software Evaluation and Maintenance':
+  #  - 'Item'
+  - '2. Software licenses. Free software and proprietary software': #SB2.13
     - 'Item'
-  - '8. Mobile device application programming':
+  #- '11. Controller card simulators':
+  #  - 'Item'
+  - '3. Initiative, self-confidence and metacognition in the software development learning process': #SB2.15
     - 'Item'
-  - '9. Software evaluation and maintenance':
-    - 'Item'
-  - '10. Software licenses. Free software and proprietary software':
-    - 'Item'
-  - '11. Controller card simulators':
-    - 'Item'
-  - '12. Initiative, self-confidence and metacognition in the software development learning process':
-    - 'Item'
-  - 'Project Rock Paper Scissors Lizard Spock':
-    - '0. The Project' : 'contents/programming/rpsls/project.md'
-    - '1. The Game' : 'contents/programming/rpsls/thegame.md'
-    - '2. Graphics and Animation' : 'contents/programming/rpsls/animation.md'
-    - '3. Logic and Flow Control' : 'contents/programming/rpsls/logic.md'
-    - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
-    - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
-
-- 'Robotics':
+  #- 'Project Rock Paper Scissors Lizard Spock':
+  #  - '0. The Project' : 'contents/programming/rpsls/project.md'
+  #  - '1. The Game' : 'contents/programming/rpsls/thegame.md'
+  #  - '2. Graphics and Animation' : 'contents/programming/rpsls/animation.md'
+  #  - '3. Logic and Flow Control' : 'contents/programming/rpsls/logic.md'
+  #  - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
+  #  - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
+- 'Unit 6. Robotics ':
+  - 'Robotics in Action: Assembly, Control, and Programming': 'contents/unit06/unit6.md'
   - '0. Introduction to Robotics' :
-    - 'Introduction' : 'contents/robotics/intro.md' 
-    - 'What is a robot?' : 'contents/robotics/robots.md'
-    - 'Robots and AI' : 'contents/robotics/robots_ai.md'
-    - 'Robots' : 'contents/robotics/crashcourse_robots.md'
-    - 'Robotics and AI' : 'contents/robotics/crashcourse_robotics_ai.md'
-    - 'How Engineering Robots Works' : 'contents/robotics/crashcourse_robots_engineering.md'
-  - '1. Robots: Types, Degrees of Freedom, and Basic Technical Characteristics':
-    - 'Item' : 'contents/robotics/item.md'  
-  - '2. Robot assembly':
+    - 'Introduction' : 'contents/unit06/intro.md' 
+    - 'What is a robot?' : 'contents/unit06/robots.md'
+    - 'Robots and AI' : 'contents/unit06/robots_ai.md'
+    - 'Robots' : 'contents/unit06/crashcourse_robots.md'
+    - 'Robotics and AI' : 'contents/unit06/crashcourse_robotics_ai.md'
+    - 'How Engineering Robots Works' : 'contents/unit06/crashcourse_robots_engineering.md'
+  - '1. Robots: Types, Degrees of Freedom, and Basic Technical Characteristics': #SB3.1
+    - 'Item' : 'contents/unit06/item.md'  
+  - '2. Robot assembly': #SB3.2
     - 'Item'
-  - '3. Control of robotic systems':
-    - 'Introduction to mBlock' : 'contents/robotics/mblock.md'
-  - '4. Sensors, actuators and controllers':
-    - 'Introduction' : 'contents/robotics/intro_sens_act_contr.md'
-    - 'Sensors' : 'contents/robotics/sensors.md'
-    - 'Actuators' : 'contents/robotics/actuators.md'
-    - 'Controllers' : 'contents/robotics/controllers.md'
-    - 'mBot' : 'contents/robotics/mbot.md'
-  - '5. Loading and execution of algorithms in robots':
+  - '3. Control of robotic systems': #SB3.3
+    - 'Introduction to mBlock' : 'contents/unit06/mblock.md'
+  - '4. Sensors, actuators and controllers': #SB3.4
+    - 'Introduction' : 'contents/unit06/intro_sens_act_contr.md'
+    - 'Sensors' : 'contents/unit06/sensors.md'
+    - 'Actuators' : 'contents/unit06/actuators.md'
+    - 'Controllers' : 'contents/unit06/controllers.md'
+    - 'mBot' : 'contents/unit06/mbot.md'
+  - '5. Loading and execution of algorithms in robots': #SB3.5
     - 'Item'
-#  - '6. Robotic systems in experimentation with designed prototypes':
-#    - 'Item'
-  - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
-  - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
-#- 'Programación Didáctica':
+# - '3.6. Robotic systems in experimentation with designed prototypes': 
+#   - 'Item'
+# - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
+# - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
+# - 'Programación Didáctica':
 #    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
 - 'More':
   - 'Blog': 'https://www.esferatic.com'

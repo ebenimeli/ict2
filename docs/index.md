@@ -1,7 +1,7 @@
 
 # Artificial Intelligence, Programming and Robotics
 
-![AI, Programming, and Robotics](images/aipr3_illustration.jpg)
+<img class="header" src="images/aipr3_illustration.jpg"/>
 
 **Artificial intelligence** (AI) and **robotics** are really interesting things that are now part of our daily lives. They are used in many tasks we do every day and are also connected to **programming**, which is like giving instructions to computers to do incredible things. These are very important things that are changing how we live.
 
