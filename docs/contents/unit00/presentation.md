@@ -13,4 +13,37 @@ In school, when we learn about **artificial intelligence, programming, and robot
 
 ## Slides
 
-![Presentation](slides/s00_presentation.pdf){type=application/pdf style="min-height:67vh;width:100%" }
+<div class="glightbox">
+  <a href="slides/presentation/Diapositiva2.jpeg" class="glightbox">
+    <img src="slides/presentation/Diapositiva2.jpeg" alt="Imagen 2" />
+  </a>
+  <a href="slides/presentation/Diapositiva5.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva5.jpeg" alt="Imagen 5" />
+  </a>
+  <a href="slides/presentation/Diapositiva6.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva6.jpeg" alt="Imagen 6" />
+  </a>
+  <a href="slides/presentation/Diapositiva7.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva7.jpeg" alt="Imagen 7" />
+  </a>
+  <a href="slides/presentation/Diapositiva8.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva8.jpeg" alt="Imagen 8" />
+  </a>
+  <a href="slides/presentation/Diapositiva9.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva9.jpeg" alt="Imagen 9" />
+  </a>
+  <a href="slides/presentation/Diapositiva11.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva11.jpeg" alt="Imagen 11" />
+  </a>
+  <a href="slides/presentation/Diapositiva13.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva13.jpeg" alt="Imagen 13" />
+  </a>
+  <a href="slides/presentation/Diapositiva15.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva15.jpeg" alt="Imagen 15" />
+  </a>
+</div>
+
+
+<script>
+  const lightbox = GLightbox({});
+</script>

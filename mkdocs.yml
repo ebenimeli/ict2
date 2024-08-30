@@ -133,7 +133,22 @@ theme:
 
 plugins:
   - mkdocs-pdf
-  - glightbox
+  - glightbox:
+      touchNavigation: true
+      loop: true
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
   - search
   - mermaid2
   #- pandoc
@@ -148,8 +163,11 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
 extra_css:
   - css/ict.css
+  - css/glightbox.css
 
 extra_javascript:
   - https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js
+  - javascript/glightbox.min.js
