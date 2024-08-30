@@ -1,7 +1,7 @@
 site_name: Artificial Intelligence, Programming and Robotics (I) - 2.º ESO
 use_directory_urls: false
 nav:
-- 'Presentation' : 'contents/presentation.md' 
+- 'Presentation' : 'contents/unit00/presentation.md' 
 - 'Unit 0. Introduction':
   - '0.1. Introduction to AI, Programming and Robotics' : 'contents/unit01/intro.md' 
   #    - 'The Turing Test': 'contents/unit01/the-turing-test.md'
@@ -132,6 +132,7 @@ theme:
     logo: 'images/floppy-ict2.png'
 
 plugins:
+  - mkdocs-pdf
   - glightbox
   - search
   - mermaid2
