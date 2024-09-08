@@ -3,6 +3,8 @@
 
 <img class="header" src="../../images/aipr3_illustration.jpg"/>
 
+## Summary
+
 **Artificial intelligence** (AI) and **robotics** are really interesting things that are now part of our daily lives. They are used in many tasks we do every day and are also connected to **programming**, which is like giving instructions to computers to do incredible things. These are very important things that are changing how we live.
 
 In the second half of the last century, there was a digital revolution that made the era of information possible. However, it wasn't until a few years later, when the **Internet** became more accessible and computers could automatically process large amounts of information, that we truly entered the information society, which is like the successor to the industrial era.
@@ -14,35 +16,50 @@ In school, when we learn about **artificial intelligence, programming, and robot
 ## Slides
 
 <div class="glightbox">
-  <a href="slides/presentation/Diapositiva2.jpeg" class="glightbox">
-    <img src="slides/presentation/Diapositiva2.jpeg" alt="Imagen 2" />
+  <a href="slides/presentation/Diapositiva1.jpeg" class="glightbox">
+    <img src="slides/presentation/Diapositiva1.jpeg" alt="Imagen 2" />
+  </a>
+  <a href="slides/presentation/Diapositiva2.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva2.jpeg" alt="Imagen 5" />
+  </a>
+  <a href="slides/presentation/Diapositiva3.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva3.jpeg" alt="Imagen 6" />
+  </a>
+  <a href="slides/presentation/Diapositiva4.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva4.jpeg" alt="Imagen 7" />
   </a>
   <a href="slides/presentation/Diapositiva5.jpeg" class="glightbox hidden">
-    <img src="slides/presentation/Diapositiva5.jpeg" alt="Imagen 5" />
+    <img src="slides/presentation/Diapositiva5.jpeg" alt="Imagen 8" />
   </a>
   <a href="slides/presentation/Diapositiva6.jpeg" class="glightbox hidden">
-    <img src="slides/presentation/Diapositiva6.jpeg" alt="Imagen 6" />
+    <img src="slides/presentation/Diapositiva6.jpeg" alt="Imagen 9" />
   </a>
   <a href="slides/presentation/Diapositiva7.jpeg" class="glightbox hidden">
-    <img src="slides/presentation/Diapositiva7.jpeg" alt="Imagen 7" />
+    <img src="slides/presentation/Diapositiva7.jpeg" alt="Imagen 11" />
   </a>
   <a href="slides/presentation/Diapositiva8.jpeg" class="glightbox hidden">
-    <img src="slides/presentation/Diapositiva8.jpeg" alt="Imagen 8" />
+    <img src="slides/presentation/Diapositiva8.jpeg" alt="Imagen 11" />
   </a>
   <a href="slides/presentation/Diapositiva9.jpeg" class="glightbox hidden">
-    <img src="slides/presentation/Diapositiva9.jpeg" alt="Imagen 9" />
+    <img src="slides/presentation/Diapositiva9.jpeg" alt="Imagen 11" />
+  </a>
+  <a href="slides/presentation/Diapositiva10.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva10.jpeg" alt="Imagen 11" />
   </a>
   <a href="slides/presentation/Diapositiva11.jpeg" class="glightbox hidden">
     <img src="slides/presentation/Diapositiva11.jpeg" alt="Imagen 11" />
   </a>
+  <a href="slides/presentation/Diapositiva12.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva12.jpeg" alt="Imagen 11" />
+  </a>
   <a href="slides/presentation/Diapositiva13.jpeg" class="glightbox hidden">
-    <img src="slides/presentation/Diapositiva13.jpeg" alt="Imagen 13" />
+    <img src="slides/presentation/Diapositiva13.jpeg" alt="Imagen 11" />
   </a>
-  <a href="slides/presentation/Diapositiva15.jpeg" class="glightbox hidden">
-    <img src="slides/presentation/Diapositiva15.jpeg" alt="Imagen 15" />
+  <a href="slides/presentation/Diapositiva14.jpeg" class="glightbox hidden">
+    <img src="slides/presentation/Diapositiva14.jpeg" alt="Imagen 11" />
   </a>
-</div>
 
+</div>
 
 <script>
   const lightbox = GLightbox({});
