@@ -5,8 +5,8 @@ nav:
 - 'Unit 0. Introduction':
   - '0.1. Introduction to AI, Programming and Robotics' :
       - 'Introduction to AI': 'contents/unit01/intro.md' 
-      - 'The Turing Test': 'contents/unit01/c0_the-turing-test.md'
-      - 'Text 1. The Turing Test': 'contents/unit01/c0_text-turing.md'  
+  #    - 'The Turing Test': 'contents/unit01/c0_the-turing-test.md'
+  #    - 'Text 1. The Turing Test': 'contents/unit01/c0_text-turing.md'  
   #    - 'AI terms' : 'contents/unit01/terms.md'
 - 'Unit 1. Sensors and AI':
   - 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
