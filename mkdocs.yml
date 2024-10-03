@@ -3,31 +3,32 @@ use_directory_urls: false
 nav:
 - 'Presentation' : 'contents/unit00/presentation.md' 
 - 'Unit 0. Introduction':
-  - '0.1. Introduction to AI, Programming and Robotics' : 'contents/unit01/intro.md' 
-  #    - 'The Turing Test': 'contents/unit01/the-turing-test.md'
+  - '0.1. Introduction to AI, Programming and Robotics' :
+      - 'Introduction to AI': 'contents/unit01/intro.md' 
+      - 'The Turing Test': 'contents/unit01/c0_the-turing-test.md'
+      - 'Text 1. The Turing Test': 'contents/unit01/c0_text-turing.md'  
   #    - 'AI terms' : 'contents/unit01/terms.md'
-  #    - 'Activity 1. The Turing Test': 'contents/unit01/activity-turing.md'  
 - 'Unit 1. Sensors and AI':
   - 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
   - '1. Learning: Biological Systems and AI': # SB1.1
-    - 'Learning in Biological Systems: Decisions and Free Will': 'contents/unit01/ai-bio.md'
-    - 'Learning, AI, Programming, and Robots': 'contents/unit01/learning-aipr.md'
+    - 'Learning in Biological Systems: Decisions and Free Will': 'contents/unit01/c1_ai-bio.md'
+    - 'Learning, AI, Programming, and Robots': 'contents/unit01/c1_learning-aipr.md'
     - '✏️ Exercises': 'contents/unit01/exercises-1-1.md'
   - '2. Sensors, typology and applications': # SB1.2
-    - 'Sensors': 'contents/unit01/Sensors.md'
-    - 'Types of sensors': 'contents/unit01/types-of-sensors.md'
-    - 'Applications': 'contents/unit01/sensors-applications.md'
+    - 'Sensors': 'contents/unit01/c2_sensors.md'
+    - 'Types of sensors': 'contents/unit01/c2_types-of-sensors.md'
+    - 'Applications': 'contents/unit01/c2_sensors-applications.md'
   - '3. Fundamentals of AI': # SB1.3
-    - 'Fundamentals of AI' : 'contents/unit01/ai-fundamentals.md'
-    - 'Decision Trees' : 'contents/unit01/decision-trees.md'  
-    - 'Big Data' : 'contents/unit01/big-data.md'
-    - 'Neural Networks' : 'contents/unit01/neural-networks.md'
+    - 'Fundamentals of AI' : 'contents/unit01/c3_ai-fundamentals.md'
+    - 'Decision Trees' : 'contents/unit01/c3_decision-trees.md'  
+    - 'Big Data' : 'contents/unit01/c3_big-data.md'
+    - 'Neural Networks' : 'contents/unit01/c3_neural-networks.md'
   - '4. Basic techniques of AI': #SB1.4
-    - 'Expert systems' : 'contents/unit01/expert-systems.md'
-    - 'Neural networks' : 'contents/unit01/neural-networks-tech.md'
-    - 'Machine learning' : 'contents/unit01/machine-learning.md'
+    - 'Expert systems' : 'contents/unit01/c4_expert-systems.md'
+    - 'Neural networks' : 'contents/unit01/c4_neural-networks-tech.md'
+    - 'Machine learning' : 'contents/unit01/c4_machine-learning.md'
   - '5. Automatic information processing': #SB1.5
-    - 'Automatic information processing' : 'contents/unit01/auto-inf-processing.md'
+    - 'Automatic information processing' : 'contents/unit01/c5_auto-inf-processing.md'
   - 'Activities & Projects':
     - 'A01. Learning in Biological Systems': 'contents/unit01/activity-A01.md'
     - 'A02. Title': 'contents/unit01/activity-A02.md'

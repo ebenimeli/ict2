@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Fundamentals of AI - Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</title>
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../../css/ict.css" rel="stylesheet"/>
+<link href="../../css/glightbox.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Fundamentals of AI";
+        var mkdocs_page_input_path = "contents/unit01/c3_ai-fundamentals.md";
+        var mkdocs_page_url = null;
+      </script>
+<!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="../..">
+<img alt="Logo" class="logo" src="../../images/floppy-ict2.png"/>
+</a><div role="search">
+<form action="../../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit00/presentation.html">Presentation</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 0. Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal">0.1. Introduction to AI, Programming and Robotics</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="intro.html">Introduction to AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c0_the-turing-test.html">The Turing Test</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c0_text-turing.html">Text 1. The Turing Test</a>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 1. Sensors and AI</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="unit1.html">Sensors and AI: Fundamentals and Applications</a>
+</li>
+<li class="toctree-l1"><a class="reference internal">1. Learning: Biological Systems and AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c1_ai-bio.html">Learning in Biological Systems: Decisions and Free Will</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c1_learning-aipr.html">Learning, AI, Programming, and Robots</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="exercises-1-1.html">✏️ Exercises</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">2. Sensors, typology and applications</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c2_sensors.html">Sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c2_types-of-sensors.html">Types of sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c2_sensors-applications.html">Applications</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current">3. Fundamentals of AI</a>
+<ul class="current">
+<li class="toctree-l2 current"><a class="reference internal current" href="#">Fundamentals of AI</a>
+<ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#decision-trees">Decision Trees</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#big-data">Big Data</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#neural-networks">Neural Networks</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#conclusion">Conclusion</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_decision-trees.html">Decision Trees</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_big-data.html">Big Data</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_neural-networks.html">Neural Networks</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">4. Basic techniques of AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c4_expert-systems.html">Expert systems</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c4_neural-networks-tech.html">Neural networks</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c4_machine-learning.html">Machine learning</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">5. Automatic information processing</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c5_auto-inf-processing.html">Automatic information processing</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">Activities &amp; Projects</a>
+<ul>
+<li class="toctree-l2"><a class="" href="activity-A01.md">A01. Learning in Biological Systems</a>
+</li>
+<li class="toctree-l2"><a class="" href="activity-A02.md">A02. Title</a>
+</li>
+<li class="toctree-l2"><a class="" href="activity-A03.md">A03. Title</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="glossary-ud01.html">Glossary</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../criterios.html">Criterios de evaluación</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">More</span></p>
+<ul>
+<li class="toctree-l1"><a class="" href="https://www.esferatic.com">Blog</a>
+</li>
+<li class="toctree-l1"><a class="" href="https://www.instagram.com/esferatic">Instagram</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../..">Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
+<li class="breadcrumb-item">Unit 1. Sensors and AI</li>
+<li class="breadcrumb-item">3. Fundamentals of AI</li>
+<li class="breadcrumb-item active">Fundamentals of AI</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<div><h1 id="fundamentals-of-ai-decision-trees-big-data-and-neural-networks">Fundamentals of AI: Decision Trees, Big Data, and Neural Networks</h1>
+<p>Artificial Intelligence (AI) is a fascinating field that combines computer science, data, and learning to create smart machines. In this section, we will explore three important concepts in AI: Decision Trees, Big Data, and Neural Networks. Understanding these concepts will help you grasp how AI works and why it is so powerful.</p>
+<h2 id="decision-trees">Decision Trees</h2>
+<p>A Decision Tree is a tool used in AI to make decisions based on data. It looks like a tree with branches. Each branch represents a choice, and each leaf represents an outcome.</p>
+<ul>
+<li>
+<p><strong>How Decision Trees Work:</strong> Imagine you are trying to decide what game to play. You start at the root of the tree with a question, like "Is it raining?" If the answer is yes, you follow one branch; if the answer is no, you follow another branch. Each branch leads to more questions until you reach a leaf, which tells you what game to play. This process of asking questions and making choices is how a decision tree helps computers make decisions.</p>
+</li>
+<li>
+<p><strong>Examples in Real Life:</strong> Decision trees are used in many areas. For example, doctors use them to diagnose diseases by asking questions about symptoms. Online stores use them to recommend products by analyzing your past purchases.</p>
+</li>
+</ul>
+<h2 id="big-data">Big Data</h2>
+<p>Big Data refers to extremely large sets of data that can be analyzed to find patterns, trends, and associations.</p>
+<ul>
+<li>
+<p><strong>Why Big Data is Important:</strong> In the past, collecting and analyzing data was slow and difficult. Now, with the help of computers, we can gather huge amounts of data from the internet, sensors, and other sources. This data helps AI systems learn and improve.</p>
+</li>
+<li>
+<p><strong>How Big Data Works:</strong> Imagine you have a massive library of books. Instead of reading each book one by one, you use a computer to quickly scan and analyze all the books to find useful information. This is what big data does. It allows AI to process vast amounts of information quickly and accurately.</p>
+</li>
+<li>
+<p><strong>Examples in Real Life:</strong> Big data is used in many fields, like healthcare, where it helps doctors find better treatments by analyzing patient records. In social media, it helps companies understand user behavior and improve their services.</p>
+</li>
+</ul>
+<h2 id="neural-networks">Neural Networks</h2>
+<p>Neural Networks are a key technology in AI that mimic the way the human brain works.</p>
+<ul>
+<li>
+<p><strong>How Neural Networks Work:</strong> A neural network is made up of layers of nodes, similar to neurons in the brain. Each node processes information and passes it to the next layer. The network learns by adjusting the connections between nodes based on the data it receives.</p>
+</li>
+<li>
+<p><strong>Training Neural Networks:</strong> Training a neural network involves feeding it large amounts of data and adjusting the connections to improve its performance. For example, to train a network to recognize pictures of cats, you show it thousands of cat pictures. The network learns the patterns and features that define a cat.</p>
+</li>
+<li>
+<p><strong>Examples in Real Life:</strong> Neural networks are used in many applications. They power voice assistants like Siri and Alexa, recognize faces in photos, and even help self-driving cars navigate.</p>
+</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Understanding Decision Trees, Big Data, and Neural Networks is essential to grasp the basics of AI. Decision Trees help AI make choices based on data. Big Data provides the vast amount of information needed to train AI systems. Neural Networks mimic the brain's learning process to recognize patterns and make decisions. Together, these technologies enable AI to solve complex problems and improve our lives in many ways. By learning about these concepts, you are taking the first step into the exciting world of AI, programming, and robotics.</p></div>
+</div>
+</div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href="c2_sensors-applications.html" title="Applications"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="c3_decision-trees.html" title="Decision Trees">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="c2_sensors-applications.html" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="c3_decision-trees.html" style="color: #fcfcfc">Next »</a></span>
+</span>
+</div>
+<script src="../../js/jquery-3.6.0.min.js"></script>
+<script>var base_url = "../..";</script>
+<script src="../../js/theme_extra.js"></script>
+<script src="../../js/theme.js"></script>
+<script src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
+<script src="../../javascript/glightbox.min.js"></script>
+<script src="../../search/main.js"></script>
+<script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": true, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>

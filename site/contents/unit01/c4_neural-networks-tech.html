@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Neural networks - Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</title>
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../../css/ict.css" rel="stylesheet"/>
+<link href="../../css/glightbox.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Neural networks";
+        var mkdocs_page_input_path = "contents/unit01/c4_neural-networks-tech.md";
+        var mkdocs_page_url = null;
+      </script>
+<!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="../..">
+<img alt="Logo" class="logo" src="../../images/floppy-ict2.png"/>
+</a><div role="search">
+<form action="../../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit00/presentation.html">Presentation</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 0. Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal">0.1. Introduction to AI, Programming and Robotics</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="intro.html">Introduction to AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c0_the-turing-test.html">The Turing Test</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c0_text-turing.html">Text 1. The Turing Test</a>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 1. Sensors and AI</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="unit1.html">Sensors and AI: Fundamentals and Applications</a>
+</li>
+<li class="toctree-l1"><a class="reference internal">1. Learning: Biological Systems and AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c1_ai-bio.html">Learning in Biological Systems: Decisions and Free Will</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c1_learning-aipr.html">Learning, AI, Programming, and Robots</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="exercises-1-1.html">✏️ Exercises</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">2. Sensors, typology and applications</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c2_sensors.html">Sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c2_types-of-sensors.html">Types of sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c2_sensors-applications.html">Applications</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">3. Fundamentals of AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c3_ai-fundamentals.html">Fundamentals of AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_decision-trees.html">Decision Trees</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_big-data.html">Big Data</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_neural-networks.html">Neural Networks</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current">4. Basic techniques of AI</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="c4_expert-systems.html">Expert systems</a>
+</li>
+<li class="toctree-l2 current"><a class="reference internal current" href="#">Neural networks</a>
+<ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#fundamentals-of-neural-networks">Fundamentals of Neural Networks</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#how-neural-networks-work">How Neural Networks Work</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#applications-of-neural-networks">Applications of Neural Networks</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#ethical-and-social-implications">Ethical and Social Implications</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#using-neural-networks-in-simple-applications">Using Neural Networks in Simple Applications</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c4_machine-learning.html">Machine learning</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">5. Automatic information processing</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c5_auto-inf-processing.html">Automatic information processing</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">Activities &amp; Projects</a>
+<ul>
+<li class="toctree-l2"><a class="" href="activity-A01.md">A01. Learning in Biological Systems</a>
+</li>
+<li class="toctree-l2"><a class="" href="activity-A02.md">A02. Title</a>
+</li>
+<li class="toctree-l2"><a class="" href="activity-A03.md">A03. Title</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="glossary-ud01.html">Glossary</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../criterios.html">Criterios de evaluación</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">More</span></p>
+<ul>
+<li class="toctree-l1"><a class="" href="https://www.esferatic.com">Blog</a>
+</li>
+<li class="toctree-l1"><a class="" href="https://www.instagram.com/esferatic">Instagram</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../..">Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
+<li class="breadcrumb-item">Unit 1. Sensors and AI</li>
+<li class="breadcrumb-item">4. Basic techniques of AI</li>
+<li class="breadcrumb-item active">Neural networks</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<div><h1 id="neural-networks">Neural Networks</h1>
+<p>Neural Networks are a fundamental technology in Artificial Intelligence (AI) that mimics the human brain's ability to learn and recognize patterns. They are used in various applications to make decisions, classify data, and improve accuracy over time. Let's explore how neural networks work, where they are applied, and their ethical implications.</p>
+<h2 id="fundamentals-of-neural-networks">Fundamentals of Neural Networks</h2>
+<p>Neural networks are composed of layers of nodes, similar to neurons in the brain. Each node processes information and passes it to the next layer. Here’s how they typically operate:</p>
+<ul>
+<li>
+<p><strong>Layers and Nodes:</strong> Neural networks consist of an input layer where data enters, hidden layers that process the data, and an output layer that provides the final result. Nodes within each layer are interconnected, and each connection has a weight that adjusts as the network learns.</p>
+</li>
+<li>
+<p><strong>Processing Data:</strong> When data enters the network, it is processed through the layers of nodes. Each node applies a mathematical function to the input data, transforming it into a form that can be understood by the next layer. This process continues until the final output layer produces a result, such as a classification or prediction.</p>
+</li>
+</ul>
+<h2 id="how-neural-networks-work">How Neural Networks Work</h2>
+<p>To understand their function better, consider an example of training a neural network to recognize handwritten digits:</p>
+<ul>
+<li>
+<p><strong>Training Process:</strong> The network is fed with thousands of images of handwritten digits, each labeled with the correct digit. During training, it adjusts the weights of connections between nodes to minimize errors in its predictions. This iterative process improves the network's ability to accurately recognize digits it has not seen before.</p>
+</li>
+<li>
+<p><strong>Learning Patterns:</strong> Neural networks learn by recognizing patterns in data. For instance, when analyzing images, they identify features like edges, shapes, and textures that distinguish one object from another.</p>
+</li>
+</ul>
+<h2 id="applications-of-neural-networks">Applications of Neural Networks</h2>
+<p>Neural networks are applied in diverse fields due to their ability to handle complex tasks:</p>
+<ul>
+<li>
+<p><strong>Image and Speech Recognition:</strong> They power applications like facial recognition in smartphones and voice assistants that understand and respond to spoken commands.</p>
+</li>
+<li>
+<p><strong>Medical Diagnosis:</strong> In healthcare, neural networks assist in diagnosing diseases by analyzing medical images and patient data to identify patterns indicative of specific conditions.</p>
+</li>
+<li>
+<p><strong>Autonomous Vehicles:</strong> Self-driving cars use neural networks to interpret sensor data and make decisions about steering, braking, and navigating traffic.</p>
+</li>
+</ul>
+<h2 id="ethical-and-social-implications">Ethical and Social Implications</h2>
+<p>Despite their benefits, neural networks raise ethical concerns:</p>
+<ul>
+<li>
+<p><strong>Privacy:</strong> Applications like facial recognition raise concerns about privacy and surveillance, as they can track individuals without their consent.</p>
+</li>
+<li>
+<p><strong>Bias:</strong> If trained on biased data, neural networks may produce unfair outcomes, perpetuating societal inequalities.</p>
+</li>
+<li>
+<p><strong>Job Displacement:</strong> Automation driven by AI, including neural networks, may lead to job losses in certain sectors.</p>
+</li>
+</ul>
+<h2 id="using-neural-networks-in-simple-applications">Using Neural Networks in Simple Applications</h2>
+<p>You can engage with neural networks through guided activities to understand their practical applications:</p>
+<ul>
+<li>
+<p><strong>Activity Example:</strong> You could use a simplified neural network to classify images of animals based on their features, demonstrating how the network learns to distinguish between different types of animals.</p>
+</li>
+<li>
+<p><strong>Learning Outcomes:</strong> By interacting with these systems, you can develop a foundational understanding of AI concepts, learn how neural networks process information, and begin to appreciate their role in solving real-world problems.</p>
+</li>
+</ul>
+<p>In conclusion, neural networks represent a powerful tool in AI, capable of learning from data and making decisions akin to human cognition. Understanding their fundamentals, applications, and ethical considerations prepares students to navigate the evolving landscape of AI responsibly and innovatively.</p></div>
+</div>
+</div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href="c4_expert-systems.html" title="Expert systems"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="c4_machine-learning.html" title="Machine learning">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="c4_expert-systems.html" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="c4_machine-learning.html" style="color: #fcfcfc">Next »</a></span>
+</span>
+</div>
+<script src="../../js/jquery-3.6.0.min.js"></script>
+<script>var base_url = "../..";</script>
+<script src="../../js/theme_extra.js"></script>
+<script src="../../js/theme.js"></script>
+<script src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
+<script src="../../javascript/glightbox.min.js"></script>
+<script src="../../search/main.js"></script>
+<script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": true, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>

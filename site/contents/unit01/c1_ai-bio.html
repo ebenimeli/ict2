@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Learning in Biological Systems: Decisions and Free Will - Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</title>
+<link href="../../css/theme.css" rel="stylesheet"/>
+<link href="../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../../css/ict.css" rel="stylesheet"/>
+<link href="../../css/glightbox.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "Learning in Biological Systems: Decisions and Free Will";
+        var mkdocs_page_input_path = "contents/unit01/c1_ai-bio.md";
+        var mkdocs_page_url = null;
+      </script>
+<!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a href="../..">
+<img alt="Logo" class="logo" src="../../images/floppy-ict2.png"/>
+</a><div role="search">
+<form action="../../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../unit00/presentation.html">Presentation</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 0. Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal">0.1. Introduction to AI, Programming and Robotics</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="intro.html">Introduction to AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c0_the-turing-test.html">The Turing Test</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c0_text-turing.html">Text 1. The Turing Test</a>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Unit 1. Sensors and AI</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="unit1.html">Sensors and AI: Fundamentals and Applications</a>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current">1. Learning: Biological Systems and AI</a>
+<ul class="current">
+<li class="toctree-l2 current"><a class="reference internal current" href="#">Learning in Biological Systems: Decisions and Free Will</a>
+<ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#what-is-learning-in-biological-systems">What is Learning in Biological Systems?</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#how-do-we-learn">How Do We Learn?</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#decisions-and-free-will">Decisions and Free Will</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c1_learning-aipr.html">Learning, AI, Programming, and Robots</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="exercises-1-1.html">✏️ Exercises</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">2. Sensors, typology and applications</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c2_sensors.html">Sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c2_types-of-sensors.html">Types of sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c2_sensors-applications.html">Applications</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">3. Fundamentals of AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c3_ai-fundamentals.html">Fundamentals of AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_decision-trees.html">Decision Trees</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_big-data.html">Big Data</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c3_neural-networks.html">Neural Networks</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">4. Basic techniques of AI</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c4_expert-systems.html">Expert systems</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c4_neural-networks-tech.html">Neural networks</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="c4_machine-learning.html">Machine learning</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">5. Automatic information processing</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="c5_auto-inf-processing.html">Automatic information processing</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">Activities &amp; Projects</a>
+<ul>
+<li class="toctree-l2"><a class="" href="activity-A01.md">A01. Learning in Biological Systems</a>
+</li>
+<li class="toctree-l2"><a class="" href="activity-A02.md">A02. Title</a>
+</li>
+<li class="toctree-l2"><a class="" href="activity-A03.md">A03. Title</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="glossary-ud01.html">Glossary</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../criterios.html">Criterios de evaluación</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">More</span></p>
+<ul>
+<li class="toctree-l1"><a class="" href="https://www.esferatic.com">Blog</a>
+</li>
+<li class="toctree-l1"><a class="" href="https://www.instagram.com/esferatic">Instagram</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../..">Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
+<li class="breadcrumb-item">Unit 1. Sensors and AI</li>
+<li class="breadcrumb-item">1. Learning: Biological Systems and AI</li>
+<li class="breadcrumb-item active">Learning in Biological Systems: Decisions and Free Will</li>
+<li class="wy-breadcrumbs-aside">
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<div><h1 id="learning-in-biological-systems-decisions-and-free-will">Learning in Biological Systems: Decisions and Free Will</h1>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="images/ai-learn-bio.jpeg"><img alt="Learning in Biological Systems" src="images/ai-learn-bio.jpeg"/></a></p>
+<p>When we think about <strong>learning</strong>, we often think about school, books, and teachers. But learning happens in many ways, especially in <strong>biological systems</strong>, like our brains and the brains of animals. Let's explore how this works and how it relates to <strong>making decisions and free will</strong>, and how it connects to <strong>artificial intelligence (AI)</strong>, programming, and robotics.</p>
+<h2 id="what-is-learning-in-biological-systems">What is Learning in Biological Systems?</h2>
+<p>Learning in biological systems means how living things (like humans and animals) change their behavior based on experiences. For example, when a dog learns to sit because it gets a treat, that's learning. Our brains learn by forming connections between <strong>neurons</strong>, which are tiny cells that send messages. These connections help us <strong>remember things</strong> and improve our skills.</p>
+<h2 id="how-do-we-learn">How Do We Learn?</h2>
+<p>There are different ways we learn:</p>
+<ol>
+<li>
+<p><strong>Classical Conditioning:</strong> This is when we learn to link two things together. For example, if you hear a bell every time you get a snack, soon you'll start to feel hungry just by hearing the bell. This is how Pavlov's dogs learned to salivate at the sound of a bell.</p>
+</li>
+<li>
+<p><strong>Operant Conditioning:</strong> This is when we learn from the consequences of our actions. If you do something good and get a reward, you'll want to do it again. If you do something bad and get punished, you'll avoid doing it again. This is how many animals and humans learn to behave.</p>
+</li>
+<li>
+<p><strong>Observational Learning:</strong> This is when we learn by watching others. If you see your friend solving a puzzle, you might learn how to solve it too just by observing. This type of learning is very important for social animals like humans.</p>
+</li>
+</ol>
+<h2 id="decisions-and-free-will">Decisions and Free Will</h2>
+<p>When we learn, we also make decisions. A decision is choosing between different options. For example, deciding what to eat for lunch or what game to play. Our decisions are influenced by our past experiences and what we've learned.</p>
+<p><strong>Free Will</strong> is the idea that we can choose our actions independently. But, are our decisions truly free? Let's explore this idea:</p>
+<ol>
+<li>
+<p><strong>Influences on Decisions:</strong> Our decisions are often influenced by things we can't control. For example, our environment, our upbringing, and our experiences all shape our choices. If you've always had pizza on Fridays, you might choose pizza without really thinking about it.</p>
+</li>
+<li>
+<p><strong>Brain and Choices:</strong> Our brain makes decisions by weighing different options and predicting outcomes. Sometimes, our brain makes choices automatically based on what we've learned. Other times, we think carefully before deciding. This process involves different parts of the brain working together.</p>
+</li>
+<li>
+<p><strong>True Freedom?:</strong> Some scientists believe that our decisions are not completely free because they are based on previous experiences and biological processes. Others believe that we still have the power to make choices, even if they are influenced by other factors.</p>
+</li>
+</ol></div>
+</div>
+</div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href="unit1.html" title="Sensors and AI: Fundamentals and Applications"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="c1_learning-aipr.html" title="Learning, AI, Programming, and Robots">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="unit1.html" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="c1_learning-aipr.html" style="color: #fcfcfc">Next »</a></span>
+</span>
+</div>
+<script src="../../js/jquery-3.6.0.min.js"></script>
+<script>var base_url = "../..";</script>
+<script src="../../js/theme_extra.js"></script>
+<script src="../../js/theme.js"></script>
+<script src="https://unpkg.com/mermaid@10.2.4/dist/mermaid.min.js"></script>
+<script src="../../javascript/glightbox.min.js"></script>
+<script src="../../search/main.js"></script>
+<script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+<script>const lightbox = GLightbox({"touchNavigation": true, "loop": true, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});</script></body>
+</html>
