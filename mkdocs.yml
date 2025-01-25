@@ -29,6 +29,13 @@ nav:
     - 'Machine learning' : 'contents/unit01/c4_machine-learning.md'
   - '5. Automatic information processing': #SB1.5
     - 'Automatic information processing' : 'contents/unit01/c5_auto-inf-processing.md'
+  - 'Project Rock Paper Scissors Lizard Spock':
+    - '0. The Project' : 'contents/programming/rpsls/project.md'
+    - '1. The Game' : 'contents/programming/rpsls/thegame.md'
+    - '2. Graphics and Animation' : 'contents/programming/rpsls/animation.md'
+    - '3. Logic and Flow Control' : 'contents/programming/rpsls/logic.md'
+    - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
+    - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
   - 'Activities & Projects':
     - 'A01. Learning in Biological Systems': 'contents/unit01/activity-A01.md'
     - 'A02. Title': 'contents/unit01/activity-A02.md'
