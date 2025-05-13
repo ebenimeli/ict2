@@ -6,7 +6,7 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../img/favicon.ico" rel="shortcut icon"/>
-<title>Robotics - Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</title>
+<title>mBot - Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</title>
 <link href="../../css/theme.css" rel="stylesheet"/>
 <link href="../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
@@ -14,8 +14,8 @@
 <link href="../../css/glightbox.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Robotics";
-        var mkdocs_page_input_path = "contents/robotics/intro.md";
+        var mkdocs_page_name = "mBot";
+        var mkdocs_page_input_path = "contents/unit06/mbot.md";
         var mkdocs_page_url = null;
       </script>
 <!--[if lt IE 9]>
@@ -137,6 +137,63 @@
 <li class="toctree-l1"><a class="reference internal" href="../unit01/glossary-ud01.html">Glossary</a>
 </li>
 </ul>
+<p class="caption"><span class="caption-text">Unit 6. Robotics </span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="unit6.html">Robotics in Action: Assembly, Control, and Programming</a>
+</li>
+<li class="toctree-l1"><a class="reference internal">0. Introduction to Robotics</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="intro.html">Introduction</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robots.html">What is a robot?</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="robots_ai.html">Robots and AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="crashcourse_robots.html">Robots</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="crashcourse_robotics_ai.html">Robotics and AI</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="crashcourse_robots_engineering.html">How Engineering Robots Works</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal">Control of robotic systems</a>
+<ul>
+<li class="toctree-l2"><a class="reference internal" href="mblock.html">Introduction to mBlock</a>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current">Sensors, actuators and controllers</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="intro_sens_act_contr.html">Introduction</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sensors.html">Sensors</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="actuators.html">Actuators</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="controllers.html">Controllers</a>
+</li>
+<li class="toctree-l2 current"><a class="reference internal current" href="#">mBot</a>
+<ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#ultrasonic-sensor">Ultrasonic Sensor</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#line-follower-sensors">Line Follower Sensors</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#tt-geared-motor">TT Geared Motor</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="mbotcode.html">Project (I): mBot Robot Programming</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="robotresearch.html">Project (II): Robot Research</a>
+</li>
+</ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../criterios.html">Criterios de evaluación</a>
 </li>
@@ -160,7 +217,9 @@
 <div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
 <ul class="wy-breadcrumbs">
 <li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
-<li class="breadcrumb-item active">Robotics</li>
+<li class="breadcrumb-item">Unit 6. Robotics </li>
+<li class="breadcrumb-item">Sensors, actuators and controllers</li>
+<li class="breadcrumb-item active">mBot</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -168,9 +227,29 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="robotics">Robotics</h1>
+<div><h1 id="mbot">mBot</h1>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="images/mbot.png"><img alt="mBot" src="images/mbot.png"/></a></p>
+<h2 id="ultrasonic-sensor">Ultrasonic Sensor</h2>
+<p>Me Ultrasonic module is an electronic module designed for distance detection. The distance range it can detect is 3-400 cm. mBot can use this module to avoid obstacles or for other programs about distance detection. The yellow tag on the interface of this module indicates that it is a single digital interface and that it should be connected to a port with the yellow tag on the main control board.</p>
+<p>The ultrasonic sensor measures distance. One of the “eyes” transmits a sound, and the other waits for the echo of the sound to return. From the time this process takes, the distance of the object from the sensor can be calculated.</p>
+<p>The ultrasonic sensor has a range of 3-400cm. If an object is outside this range, the sensor will return a value of 400.</p>
+<h2 id="line-follower-sensors">Line Follower Sensors</h2>
+<p>Me Line Follower is designed for line-following robots. There are two sensors, each with an IR transmitting LED and an IR static induction phototransistor. mBot can move along a black line on a white background or a white line on a black background. It features fast detection and simple circuits. The blue tag on the interface of this module indicates that it is a dual digital interface and that it should be connected to a port with the blue tag on the main control board.</p>
+<p>The line follower has 2 sensors which can detect a white surface (within the range of 1-2cm).</p>
+<p>It works by emitting IR (InfraRed) light and recording how much is reflected back:</p>
+<ul>
+<li>If a lot is reflected back, it can be deduced it is close to a white surface.</li>
+<li>If a little is reflected back, it can be deduced that the surface is black, or the sensor is not near a surface.</li>
+</ul>
+<p>A light surface reflects a lot of infrared light back to the receiver. A dark surface only reflects a little light back to the receiver.</p>
+<h2 id="tt-geared-motor">TT Geared Motor</h2>
+<p>TT Geared Motor DC 6 V / 200 RPM is the new power source with plastic gears. The TT Geared Motor perfectly works with Makeblock Plastic Timing Pulley 62T and Plastic Timing Pulley 90T for the wheel systems of DIY projects. It can be used to power mBot.</p></div>
 </div>
 </div><footer>
+<div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral float-left" href="controllers.html" title="Controllers"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-right" href="mbotcode.html" title="Project (I): mBot Robot Programming">Next <span class="icon icon-circle-arrow-right"></span></a>
+</div>
 <hr/>
 <div role="contentinfo">
 <!-- Copyright etc -->
@@ -184,6 +263,8 @@
 </div>
 <div aria-label="Versions" class="rst-versions" role="note">
 <span class="rst-current-version" data-toggle="rst-current-version">
+<span><a href="controllers.html" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="mbotcode.html" style="color: #fcfcfc">Next »</a></span>
 </span>
 </div>
 <script src="../../js/jquery-3.6.0.min.js"></script>

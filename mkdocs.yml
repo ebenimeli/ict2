@@ -92,32 +92,32 @@ nav:
   #  - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
   #  - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
 #  - 'Glossary': 'contents/unit05/glossary-ud05.md'
-#- 'Unit 6. Robotics ':
-#  - 'Robotics in Action: Assembly, Control, and Programming': 'contents/unit06/unit6.md'
-#  - '0. Introduction to Robotics' :
-#    - 'Introduction' : 'contents/unit06/intro.md' 
-#    - 'What is a robot?' : 'contents/unit06/robots.md'
-#    - 'Robots and AI' : 'contents/unit06/robots_ai.md'
-#    - 'Robots' : 'contents/unit06/crashcourse_robots.md'
-#    - 'Robotics and AI' : 'contents/unit06/crashcourse_robotics_ai.md'
-#    - 'How Engineering Robots Works' : 'contents/unit06/crashcourse_robots_engineering.md'
-#  - '1. Robots: Types, Degrees of Freedom, and Basic Technical Characteristics': #SB3.1
-#    - 'Item' : 'contents/unit06/item.md'  
-#  - '2. Robot assembly': #SB3.2
-#    - 'Item'
-#  - '3. Control of robotic systems': #SB3.3
-#    - 'Introduction to mBlock' : 'contents/unit06/mblock.md'
-#  - '4. Sensors, actuators and controllers': #SB3.4
-#    - 'Introduction' : 'contents/unit06/intro_sens_act_contr.md'
-#    - 'Sensors' : 'contents/unit06/sensors.md'
-#    - 'Actuators' : 'contents/unit06/actuators.md'
-#    - 'Controllers' : 'contents/unit06/controllers.md'
-#    - 'mBot' : 'contents/unit06/mbot.md'
+- 'Unit 6. Robotics ':
+  - 'Robotics in Action: Assembly, Control, and Programming': 'contents/unit06/unit6.md'
+  - '0. Introduction to Robotics' :
+    - 'Introduction' : 'contents/unit06/intro.md' 
+    - 'What is a robot?' : 'contents/unit06/robots.md'
+    - 'Robots and AI' : 'contents/unit06/robots_ai.md'
+    - 'Robots' : 'contents/unit06/crashcourse_robots.md'
+    - 'Robotics and AI' : 'contents/unit06/crashcourse_robotics_ai.md'
+    - 'How Engineering Robots Works' : 'contents/unit06/crashcourse_robots_engineering.md'
+  #- '1. Robots: Types, Degrees of Freedom, and Basic Technical Characteristics': #SB3.1
+  #  - 'Item' : 'contents/unit06/item.md'  
+  #- '2. Robot assembly': #SB3.2
+  #  - 'Item'
+  - 'Control of robotic systems': #SB3.3
+    - 'Introduction to mBlock' : 'contents/unit06/mblock.md'
+  - 'Sensors, actuators and controllers': #SB3.4
+    - 'Introduction' : 'contents/unit06/intro_sens_act_contr.md'
+    - 'Sensors' : 'contents/unit06/sensors.md'
+    - 'Actuators' : 'contents/unit06/actuators.md'
+    - 'Controllers' : 'contents/unit06/controllers.md'
+    - 'mBot' : 'contents/unit06/mbot.md'
 #  - '5. Loading and execution of algorithms in robots': #SB3.5
 #    - 'Item'
 # - '[3ESO] 3.6. Robotic systems in experimentation with designed prototypes': 
-# - 'Project (I): Robot Research' : 'contents/robotics/robotresearch.md'
-# - 'Project (II): mBot Robot Programming' : 'contents/robotics/mbotcode.md'
+- 'Project (I): mBot Robot Programming' : 'contents/unit06/mbotcode.md'
+- 'Project (II): Robot Research' : 'contents/unit06/robotresearch.md'
 # - 'Programación Didáctica':
 #    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
 #  - 'Glossary': 'contents/unit06/glossary-ud06.md'
