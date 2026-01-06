@@ -1,4 +1,3 @@
-
 # Artificial Intelligence, Programming and Robotics
 
 <img class="header" src="../../images/aipr3_illustration.jpg"/>
@@ -12,6 +11,8 @@ In the second half of the last century, there was a digital revolution that made
 Now, since the beginning of this century, **computing** (which means using computers) and its application in non-biological intelligent systems and **robots** are causing another significant change in how we live. This is like a new industrial revolution, marking a very important moment in the development of our society.
 
 In school, when we learn about **artificial intelligence, programming, and robotics**, we are using **computational thinking**, which is like learning to think like a computer. We learn to develop computer programs, use artificial intelligence techniques, and even program robots. We also discuss **how these technologies impact society**, and we talk about the scientific, ethical, and social aspects of all this. In summary, we are learning very interesting things that help us understand and be part of the modern world.
+
+<!--
 
 ## Slides
 
@@ -60,7 +61,7 @@ In school, when we learn about **artificial intelligence, programming, and robot
   </a>
 
 </div>
-
+-->
 <script>
   const lightbox = GLightbox({});
 </script>

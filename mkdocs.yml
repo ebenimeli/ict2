@@ -1,46 +1,46 @@
 site_name: Artificial Intelligence, Programming and Robotics (I) - 2.º ESO
 use_directory_urls: false
 nav:
-- 'Presentation' : 'contents/unit00/presentation.md' 
-- 'Unit 0. Introduction':
-  - '0.1. Introduction to AI, Programming and Robotics' :
-      - 'Introduction to AI': 'contents/unit01/intro.md' 
-  #    - 'The Turing Test': 'contents/unit01/c0_the-turing-test.md'
-  #    - 'Text 1. The Turing Test': 'contents/unit01/c0_text-turing.md'  
-  #    - 'AI terms' : 'contents/unit01/terms.md'
-- 'Unit 1. Sensors and AI':
-  - 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
-  - '1. Learning: Biological Systems and AI': # SB1.1
-    - 'Learning in Biological Systems: Decisions and Free Will': 'contents/unit01/c1_ai-bio.md'
-    - 'Learning, AI, Programming, and Robots': 'contents/unit01/c1_learning-aipr.md'
-    - '✏️ Exercises': 'contents/unit01/exercises-1-1.md'
-  - '2. Sensors, typology and applications': # SB1.2
-    - 'Sensors': 'contents/unit01/c2_sensors.md'
-    - 'Types of sensors': 'contents/unit01/c2_types-of-sensors.md'
-    - 'Applications': 'contents/unit01/c2_sensors-applications.md'
-  - '3. Fundamentals of AI': # SB1.3
-    - 'Fundamentals of AI' : 'contents/unit01/c3_ai-fundamentals.md'
-    - 'Decision Trees' : 'contents/unit01/c3_decision-trees.md'  
-    - 'Big Data' : 'contents/unit01/c3_big-data.md'
-    - 'Neural Networks' : 'contents/unit01/c3_neural-networks.md'
-  - '4. Basic techniques of AI': #SB1.4
-    - 'Expert systems' : 'contents/unit01/c4_expert-systems.md'
-    - 'Neural networks' : 'contents/unit01/c4_neural-networks-tech.md'
-    - 'Machine learning' : 'contents/unit01/c4_machine-learning.md'
-  - '5. Automatic information processing': #SB1.5
-    - 'Automatic information processing' : 'contents/unit01/c5_auto-inf-processing.md'
-  - 'Project Rock Paper Scissors Lizard Spock':
-    - '0. The Project' : 'contents/programming/rpsls/project.md'
-    - '1. The Game' : 'contents/programming/rpsls/thegame.md'
-    - '2. Graphics and Animation' : 'contents/programming/rpsls/animation.md'
-    - '3. Logic and Flow Control' : 'contents/programming/rpsls/logic.md'
-    - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
-    - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
-  - 'Activities & Projects':
-    - 'A01. Learning in Biological Systems': 'contents/unit01/activity-A01.md'
-    - 'A02. Title': 'contents/unit01/activity-A02.md'
-    - 'A03. Title': 'contents/unit01/activity-A03.md'
-  - 'Glossary': 'contents/unit01/glossary-ud01.md'
+  - "Presentation": "contents/unit00/presentation.md"
+#- 'Unit 0. Introduction':
+#- '0.1. Introduction to AI, Programming and Robotics' :
+#    - 'Introduction to AI': 'contents/unit01/intro.md'
+#    - 'The Turing Test': 'contents/unit01/c0_the-turing-test.md'
+#    - 'Text 1. The Turing Test': 'contents/unit01/c0_text-turing.md'
+#    - 'AI terms' : 'contents/unit01/terms.md'
+#- 'Unit 1. Sensors and AI':
+#  - 'Sensors and AI: Fundamentals and Applications': 'contents/unit01/unit1.md'
+#  - '1. Learning: Biological Systems and AI': # SB1.1
+#    - 'Learning in Biological Systems: Decisions and Free Will': 'contents/unit01/c1_ai-bio.md'
+#    - 'Learning, AI, Programming, and Robots': 'contents/unit01/c1_learning-aipr.md'
+#    - '✏️ Exercises': 'contents/unit01/exercises-1-1.md'
+#  - '2. Sensors, typology and applications': # SB1.2
+#    - 'Sensors': 'contents/unit01/c2_sensors.md'
+#    - 'Types of sensors': 'contents/unit01/c2_types-of-sensors.md'
+#    - 'Applications': 'contents/unit01/c2_sensors-applications.md'
+#  - '3. Fundamentals of AI': # SB1.3
+#    - 'Fundamentals of AI' : 'contents/unit01/c3_ai-fundamentals.md'
+#    - 'Decision Trees' : 'contents/unit01/c3_decision-trees.md'
+#    - 'Big Data' : 'contents/unit01/c3_big-data.md'
+#    - 'Neural Networks' : 'contents/unit01/c3_neural-networks.md'
+#  - '4. Basic techniques of AI': #SB1.4
+#    - 'Expert systems' : 'contents/unit01/c4_expert-systems.md'
+#    - 'Neural networks' : 'contents/unit01/c4_neural-networks-tech.md'
+#    - 'Machine learning' : 'contents/unit01/c4_machine-learning.md'
+#  - '5. Automatic information processing': #SB1.5
+#    - 'Automatic information processing' : 'contents/unit01/c5_auto-inf-processing.md'
+#  - 'Project Rock Paper Scissors Lizard Spock':
+#    - '0. The Project' : 'contents/programming/rpsls/project.md'
+#    - '1. The Game' : 'contents/programming/rpsls/thegame.md'
+#    - '2. Graphics and Animation' : 'contents/programming/rpsls/animation.md'
+#    - '3. Logic and Flow Control' : 'contents/programming/rpsls/logic.md'
+#    - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
+#    - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
+#  - 'Activities & Projects':
+#    - 'A01. Learning in Biological Systems': 'contents/unit01/activity-A01.md'
+#    - 'A02. Title': 'contents/unit01/activity-A02.md'
+#    - 'A03. Title': 'contents/unit01/activity-A03.md'
+#  - 'Glossary': 'contents/unit01/glossary-ud01.md'
 #- 'Unit 2. AI Ethics and Inclusion':
 #  - 'Exploring AI: Ethics, Inclusion, and Virtual Reality': 'contents/unit02/unit2.md'
 #  - '1. Equity and inclusion in AI systems. Biases in AI': #SB1.6
@@ -60,8 +60,8 @@ nav:
 #    - 'Abstraction and sequencing' : 'contents/unit03/abstraction_seq.md'
 #    - 'Algorithms' : 'contents/programming/unit03.md'
 #    - 'Natural Language and Flow Diagrams' : 'contents/unit03/nl-flowdiagrams.md'
-  #- '[3ESO] Pattern detection and reuse. Generalization':
-  #- '[3ESO] Sustainability and inclusion as software design requirements':
+#- '[3ESO] Pattern detection and reuse. Generalization':
+#- '[3ESO] Sustainability and inclusion as software design requirements':
 #  - 'Glossary': 'contents/unit03/glossary-ud03.md'
 #- 'Unit 4. Programming Fundamentals':
 #  - 'Programming Fundamentals: Languages, Flow Control, and Variables': 'contents/unit04/unit4.md'
@@ -71,73 +71,73 @@ nav:
 #    - 'Item'
 #  - '3. Block Programming: Composition of Basic Structures and Block Fitting': # SB2.8
 #    - 'Item'
-  #- '[3ESO] 2.9. Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
-  #- '[3ESO] 2.10. Mobile device application programming':
+#- '[3ESO] 2.9. Introduction to programming in high-level languages. Types of languages. Syntax and semantics':
+#- '[3ESO] 2.10. Mobile device application programming':
 #  - 'Glossary': 'contents/unit04/glossary-ud04.md'
 #- 'Unit 5. Software Management':
 #  - 'Software Management: Applications and Maintenance': 'contents/unit05/unit5.md'
 #  - '1. Software Analysis and Validation': # SB2.11
 #    - 'Item'
-  #- '[3ESO] 2.12. Software Evaluation and Maintenance':
+#- '[3ESO] 2.12. Software Evaluation and Maintenance':
 #  - '2. Software licenses. Free software and proprietary software': #SB2.13
 #    - 'Item'
-  #- '[3ESO] 11. Controller card simulators':
+#- '[3ESO] 11. Controller card simulators':
 #  - '3. Initiative, self-confidence and metacognition in the software development learning process': #SB2.15
 #    - 'Item'
-  #- 'Project Rock Paper Scissors Lizard Spock':
-  #  - '0. The Project' : 'contents/programming/rpsls/project.md'
-  #  - '1. The Game' : 'contents/programming/rpsls/thegame.md'
-  #  - '2. Graphics and Animation' : 'contents/programming/rpsls/animation.md'
-  #  - '3. Logic and Flow Control' : 'contents/programming/rpsls/logic.md'
-  #  - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
-  #  - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
+#- 'Project Rock Paper Scissors Lizard Spock':
+#  - '0. The Project' : 'contents/programming/rpsls/project.md'
+#  - '1. The Game' : 'contents/programming/rpsls/thegame.md'
+#  - '2. Graphics and Animation' : 'contents/programming/rpsls/animation.md'
+#  - '3. Logic and Flow Control' : 'contents/programming/rpsls/logic.md'
+#  - '4. Final Version and Testing' : 'contents/programming/rpsls/final.md'
+#  - 'Tutorial: Rock, Paper, Scissors' : 'contents/programming/rpsls/rps_tutorial.md'
 #  - 'Glossary': 'contents/unit05/glossary-ud05.md'
-- 'Unit 6. Robotics ':
-  - 'Robotics in Action: Assembly, Control, and Programming': 'contents/unit06/unit6.md'
-  - '0. Introduction to Robotics' :
-    - 'Introduction' : 'contents/unit06/intro.md' 
-    - 'What is a robot?' : 'contents/unit06/robots.md'
-    - 'Robots and AI' : 'contents/unit06/robots_ai.md'
-    - 'Robots' : 'contents/unit06/crashcourse_robots.md'
-    - 'Robotics and AI' : 'contents/unit06/crashcourse_robotics_ai.md'
-    - 'How Engineering Robots Works' : 'contents/unit06/crashcourse_robots_engineering.md'
-  #- '1. Robots: Types, Degrees of Freedom, and Basic Technical Characteristics': #SB3.1
-  #  - 'Item' : 'contents/unit06/item.md'  
-  #- '2. Robot assembly': #SB3.2
-  #  - 'Item'
-  - 'Control of robotic systems': #SB3.3
-    - 'Introduction to mBlock' : 'contents/unit06/mblock.md'
-  - 'Sensors, actuators and controllers': #SB3.4
-    - 'Introduction' : 'contents/unit06/intro_sens_act_contr.md'
-    - 'Sensors' : 'contents/unit06/sensors.md'
-    - 'Actuators' : 'contents/unit06/actuators.md'
-    - 'Controllers' : 'contents/unit06/controllers.md'
-    - 'mBot' : 'contents/unit06/mbot.md'
+#- 'Unit 6. Robotics ':
+#  - 'Robotics in Action: Assembly, Control, and Programming': 'contents/unit06/unit6.md'
+#  - '0. Introduction to Robotics' :
+#    - 'Introduction' : 'contents/unit06/intro.md'
+#    - 'What is a robot?' : 'contents/unit06/robots.md'
+#    - 'Robots and AI' : 'contents/unit06/robots_ai.md'
+#    - 'Robots' : 'contents/unit06/crashcourse_robots.md'
+#    - 'Robotics and AI' : 'contents/unit06/crashcourse_robotics_ai.md'
+#    - 'How Engineering Robots Works' : 'contents/unit06/crashcourse_robots_engineering.md'
+#- '1. Robots: Types, Degrees of Freedom, and Basic Technical Characteristics': #SB3.1
+#  - 'Item' : 'contents/unit06/item.md'
+#- '2. Robot assembly': #SB3.2
+#  - 'Item'
+#  - 'Control of robotic systems': #SB3.3
+#    - 'Introduction to mBlock' : 'contents/unit06/mblock.md'
+#  - 'Sensors, actuators and controllers': #SB3.4
+#    - 'Introduction' : 'contents/unit06/intro_sens_act_contr.md'
+#    - 'Sensors' : 'contents/unit06/sensors.md'
+#    - 'Actuators' : 'contents/unit06/actuators.md'
+#    - 'Controllers' : 'contents/unit06/controllers.md'
+#    - 'mBot' : 'contents/unit06/mbot.md'
 #  - '5. Loading and execution of algorithms in robots': #SB3.5
 #    - 'Item'
-# - '[3ESO] 3.6. Robotic systems in experimentation with designed prototypes': 
-- 'Project (I): mBot Robot Programming' : 'contents/unit06/mbotcode.md'
-- 'Project (II): Robot Research' : 'contents/unit06/robotresearch.md'
+# - '[3ESO] 3.6. Robotic systems in experimentation with designed prototypes':
+#- 'Project (I): mBot Robot Programming' : 'contents/unit06/mbotcode.md'
+#- 'Project (II): Robot Research' : 'contents/unit06/robotresearch.md'
 # - 'Programación Didáctica':
 #    - 'Elementos curriculares': 'pd/curriculo/curriculo.md'
 #  - 'Glossary': 'contents/unit06/glossary-ud06.md'
 #- 'Programación Didáctica':
 #  - 'Saberes' : 'contents/saberes.md'
-- 'Criterios de evaluación' : 'contents/criterios.md'
-- 'More':
-  - 'Blog': 'https://www.esferatic.com'
-  - 'Instagram': 'https://www.instagram.com/esferatic'
+#- 'Criterios de evaluación' : 'contents/criterios.md'
+#- 'More':
+#  - 'Blog': 'https://www.esferatic.com'
+#  - 'Instagram': 'https://www.instagram.com/esferatic'
 
 theme:
-    language: es
-    name: 'readthedocs'
-    palette:
-        primary: 'Teal'
-        accent: 'Teal'
-    font:
-        text: Roboto
-        code: Roboto Mono
-    logo: 'images/floppy-ict2.png'
+  language: es
+  name: "readthedocs"
+  palette:
+    primary: "Teal"
+    accent: "Teal"
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: "images/floppy-ict2.png"
 
 plugins:
   - mkdocs-pdf
