@@ -12,8 +12,6 @@ Now, since the beginning of this century, **computing** (which means using compu
 
 In school, when we learn about **artificial intelligence, programming, and robotics**, we are using **computational thinking**, which is like learning to think like a computer. We learn to develop computer programs, use artificial intelligence techniques, and even program robots. We also discuss **how these technologies impact society**, and we talk about the scientific, ethical, and social aspects of all this. In summary, we are learning very interesting things that help us understand and be part of the modern world.
 
-<!--
-
 ## Slides
 
 <div class="glightbox">
@@ -61,7 +59,7 @@ In school, when we learn about **artificial intelligence, programming, and robot
   </a>
 
 </div>
--->
+
 <script>
   const lightbox = GLightbox({});
 </script>
