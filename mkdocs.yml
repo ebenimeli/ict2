@@ -168,13 +168,16 @@ plugins:
   # - combined: true
 
 markdown_extensions:
-  - attr_list
   - sane_lists
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - toc:
+      toc_depth: "2-2"
+      permalink: true
+  - attr_list
 
 extra_css:
   - css/ict.css

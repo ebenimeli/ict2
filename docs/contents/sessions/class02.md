@@ -1,6 +1,10 @@
-# Class 02 · What is an AI chatbot?
+# Class 02 · What is an AI chatbot? {: .no-toc }
 
 <img class="header" src="session.jpg"/>
+
+**Table of contents**
+
+[TOC]
 
 ## Work Plan
 
@@ -10,10 +14,10 @@ In addition to watching the video, the student is provided with a PDF transcript
 
 After reading, the student answers the comprehension questions included at the end of the document. In addition to selecting the correct answers for each question, the student must record all the answers in the table provided at the end of the questions.
 
+## Video: _What is an AI Chatbot?_
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gmUHEvrpYoU?si=Fo9bwQVv_-HeyoaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
-
-## Summary
 
 This video discusses AI chatbots, computer programs that use artificial intelligence to understand and respond to users in real-time. It explains that these chatbots are becoming so advanced that it's difficult to distinguish them from humans. App designers intentionally make them sound human-like to create engaging and trustworthy interactions.
 
