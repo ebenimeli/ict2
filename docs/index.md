@@ -1,5 +1,4 @@
-
-# Artificial Intelligence, Programming and Robotics
+# Programming, Artificial Intelligence and Robotics
 
 <img class="header" src="images/aipr3_illustration.jpg"/>
 
