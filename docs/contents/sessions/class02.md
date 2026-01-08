@@ -1,6 +1,8 @@
 # Class 02 · What is an AI chatbot?
 
-## The session
+<img class="header" src="session.jpg"/>
+
+## Work Plan
 
 In this session, the student watches and analyses the video What is an AI Chatbot? by SciShow Kids, which explains what artificial intelligence chatbots are, how they work, and what their limitations are.
 
