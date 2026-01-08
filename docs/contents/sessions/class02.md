@@ -1,5 +1,13 @@
 # Class 02 · What is an AI chatbot?
 
+## The session
+
+In this session, the student watches and analyses the video What is an AI Chatbot? by SciShow Kids, which explains what artificial intelligence chatbots are, how they work, and what their limitations are.
+
+In addition to watching the video, the student is provided with a PDF transcript that can be used to follow the content more easily or to consult it later. While reading the text, the student may highlight or annotate the parts that seem most interesting or that they would like to discuss in class. The Notes section of the document can be used for this purpose. A glossary section is also available at the end of the document, where the student can write down any new vocabulary encountered.
+
+After reading, the student answers the comprehension questions included at the end of the document. In addition to selecting the correct answers for each question, the student must record all the answers in the table provided at the end of the questions.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gmUHEvrpYoU?si=Fo9bwQVv_-HeyoaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br/>
 
