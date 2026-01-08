@@ -53,3 +53,22 @@ So why does all of this matter? Because even though we're talking to a computer,
 AI chatbots are amazing tools that have the potential to teach us new things and help make our lives easier. And even though they're designed to feel like digital friends, it's important to remember that they're not human.
 
 Yes, they can be helpful, but they have their limits. So next time you talk to an AI chatbot, remember, it’s just a clever machine designed to assist you.
+
+## Evaluation Criteria
+
+| Ref. | Definition                                                                                                                        | CE  | T1  | T2  | T3  |
+| :--- | :-------------------------------------------------------------------------------------------------------------------------------- | :-- | :-- | :-- | :-- |
+| 1.1  | <span class="vb">Identify</span> the foundations and the functioning<br/>of basic AI techniques                                   | CE1 | ✔️  | ✔️  | ✔️  |
+| 1.2  | <span class="vb">Investigate</span> <span class="nn">situations</span> in which AI techniques are applied                         | CE1 | ✔️  | ✔️  | ✔️  |
+| 1.3  | <span class="vb">Assess</span> <span class="nn">the ethical and social implications</span><br/>of AI-based techniques             | CE1 | ✔️  | ✔️  | ✔️  |
+| 4.2  | <span class="vb">Analyse</span> and <span class="vb">critically assess</span><br/>the ethical and eco-social impact of technology | CE4 | ✔️  | ✔️  | ✔️  |
+
+### Artificial Intelligence
+
+- **1.1** The student understands what a chatbot is, how it operates, and the role AI plays.
+- **1.2** Through the video and the text, the student recognises real uses of chatbots (websites, games, tutoring, assistance).
+- **1.3** The session explicitly addresses the reliability of information, the lack of true empathy, and the risk of confusing machines with people.
+
+### Technological Challenges
+
+- **4.2** This is one of the central themes of the video and the text (trust, simulated empathy, social expectations).
