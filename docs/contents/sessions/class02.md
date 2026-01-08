@@ -8,11 +8,11 @@
 
 ## Work Plan
 
-In this session, the student watches and analyses the video What is an AI Chatbot? by SciShow Kids, which explains what artificial intelligence chatbots are, how they work, and what their limitations are.
+Watch the video What is an AI Chatbot? by SciShow Kids. The video explains what AI chatbots are, how they work, and what their limits are.
 
-In addition to watching the video, the student is provided with a PDF transcript that can be used to follow the content more easily or to consult it later. While reading the text, the student may highlight or annotate the parts that seem most interesting or that they would like to discuss in class. The Notes section of the document can be used for this purpose. A glossary section is also available at the end of the document, where the student can write down any new vocabulary encountered.
+Use the PDF transcript to follow the video more easily or to read the text later. While you read, underline or write notes about ideas you find important or interesting. Write your notes in the Notes section of the document. At the end of the text, use the glossary to write down new words you learn.
 
-After reading, the student answers the comprehension questions included at the end of the document. In addition to selecting the correct answers for each question, the student must record all the answers in the table provided at the end of the questions.
+After reading, answer the comprehension questions at the end of the document. Choose the correct answers and then write all your answers in the table provided.
 
 ## Video: _What is an AI Chatbot?_
 
