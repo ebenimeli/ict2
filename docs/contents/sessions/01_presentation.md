@@ -1,4 +1,4 @@
-# Class 01 · Presentation
+# Presentation
 
 Welcome to the first session of our course! In this session, we will introduce the main topics and objectives that we will cover throughout the course. We will also discuss the structure of the sessions, the resources available to you, and how to make the most out of your learning experience.
 

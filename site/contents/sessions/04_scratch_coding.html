@@ -6,7 +6,7 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../img/favicon.ico" rel="shortcut icon"/>
-<title>03 · Programming: An Introduction - Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</title>
+<title>Coding with Scratch - Artificial Intelligence, Programming and Robotics (I) - 2.º ESO</title>
 <link href="../../css/theme.css" rel="stylesheet"/>
 <link href="../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
@@ -14,8 +14,8 @@
 <link href="../../css/glightbox.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "03 \u00b7 Programming: An Introduction";
-        var mkdocs_page_input_path = "contents/sessions/class03.md";
+        var mkdocs_page_name = "Coding with Scratch";
+        var mkdocs_page_input_path = "contents/sessions/04_scratch_coding.md";
         var mkdocs_page_url = null;
       </script>
 <!--[if lt IE 9]>
@@ -49,11 +49,13 @@
 </ul>
 <p class="caption"><span class="caption-text">Sessions</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="class01.html">01 · Presentation</a>
+<li class="toctree-l1"><a class="reference internal" href="01_presentation.html">Presentation</a>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="class02.html">▶ 02 · What is a AI Chatbot</a>
+<li class="toctree-l1"><a class="reference internal" href="02_ai_chatbots.html">▶ What is a AI Chatbot</a>
 </li>
-<li class="toctree-l1 current"><a class="reference internal current" href="#">03 · Programming: An Introduction</a>
+<li class="toctree-l1"><a class="reference internal" href="03_intro_programming.html">Programming: An Introduction</a>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current" href="#">Coding with Scratch</a>
 <ul class="current">
 </ul>
 </li>
@@ -71,7 +73,7 @@
 <ul class="wy-breadcrumbs">
 <li><a aria-label="Docs" class="icon icon-home" href="../.."></a></li>
 <li class="breadcrumb-item">Sessions</li>
-<li class="breadcrumb-item active">03 · Programming: An Introduction</li>
+<li class="breadcrumb-item active">Coding with Scratch</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -79,7 +81,7 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<div><h1 id="class-03-programming-an-introduction">Class 03 · Programming: An Introduction<a class="headerlink" href="#class-03-programming-an-introduction" title="Permanent link">¶</a></h1>
+<div><h1 id="coding-with-scratch">Coding with Scratch<a class="headerlink" href="#coding-with-scratch" title="Permanent link">¶</a></h1>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="session.jpg"><img class="header" src="session.jpg"/></a></p>
 <p><strong>Table of contents</strong></p>
 <div class="toc">
@@ -88,7 +90,11 @@
 <li><a href="#overview">Overview</a></li>
 <li><a href="#what-is-scratch">What is Scratch?</a></li>
 <li><a href="#scratch-key-concepts">Scratch Key Concepts</a></li>
-<li><a href="#scratch-example">Scratch Example</a></li>
+<li><a href="#scratch-example">Scratch Example</a><ul>
+<li><a href="#what-does-the-program-do">What does the program do?</a></li>
+<li><a href="#what-can-you-learn-from-this-example">What can you learn from this example?</a></li>
+</ul>
+</li>
 </ul>
 </div>
 <h2 id="work-plan">Work Plan<a class="headerlink" href="#work-plan" title="Permanent link">¶</a></h2>
@@ -111,9 +117,7 @@
 <ol>
 <li><strong>Variables</strong>: Variables are used to store information that can be used and manipulated in a program. In Scratch, you can create variables to hold numbers, text, or other data types.</li>
 <li><strong>Data Types</strong>: Common data types include integers (whole numbers), floats (decimal numbers), strings (text), and booleans (true/false values).</li>
-<li><strong>Control Structures</strong>: Control structures allow you to control the flow of your program. This includes:
-   - <strong>Conditionals</strong>: If-then statements that execute code based on certain conditions.
-   - <strong>Loops</strong>: Structures that repeat a block of code multiple times until a condition is met.</li>
+<li><strong>Control Structures</strong>: Control structures allow you to control the flow of your program. This includes: <strong>Conditionals</strong>: If-then statements that execute code based on certain conditions. <strong>Loops</strong>: Structures that repeat a block of code multiple times until a condition is met.</li>
 <li><strong>Functions</strong>: Functions are reusable blocks of code that perform a specific task. They help to organize code and make it more manageable.</li>
 <li><strong>Events</strong>: Events are actions that trigger code to run, such as when a sprite is clicked or when the green flag is clicked to start the program.</li>
 <li><strong>Sprites and Backdrops</strong>: Sprites are the characters or objects in your Scratch project, while backdrops are the backgrounds. You can create and customize both to enhance your projects.</li>
@@ -163,7 +167,7 @@
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
-<a class="btn btn-neutral float-left" href="class02.html" title="▶ 02 · What is a AI Chatbot"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+<a class="btn btn-neutral float-left" href="03_intro_programming.html" title="Programming: An Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
 </div>
 <hr/>
 <div role="contentinfo">
@@ -178,7 +182,7 @@
 </div>
 <div aria-label="Versions" class="rst-versions" role="note">
 <span class="rst-current-version" data-toggle="rst-current-version">
-<span><a href="class02.html" style="color: #fcfcfc">« Previous</a></span>
+<span><a href="03_intro_programming.html" style="color: #fcfcfc">« Previous</a></span>
 </span>
 </div>
 <script src="../../js/jquery-3.6.0.min.js"></script>

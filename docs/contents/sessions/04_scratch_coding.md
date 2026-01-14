@@ -1,4 +1,4 @@
-# Class 03 · Programming: An Introduction
+# Coding with Scratch
 
 <img class="header" src="session.jpg"/>
 
@@ -34,9 +34,7 @@ In order to start using Scratch, you will need to create a free account on the S
 
 1. **Variables**: Variables are used to store information that can be used and manipulated in a program. In Scratch, you can create variables to hold numbers, text, or other data types.
 2. **Data Types**: Common data types include integers (whole numbers), floats (decimal numbers), strings (text), and booleans (true/false values).
-3. **Control Structures**: Control structures allow you to control the flow of your program. This includes:
-   - **Conditionals**: If-then statements that execute code based on certain conditions.
-   - **Loops**: Structures that repeat a block of code multiple times until a condition is met.
+3. **Control Structures**: Control structures allow you to control the flow of your program. This includes: **Conditionals**: If-then statements that execute code based on certain conditions. **Loops**: Structures that repeat a block of code multiple times until a condition is met.
 4. **Functions**: Functions are reusable blocks of code that perform a specific task. They help to organize code and make it more manageable.
 5. **Events**: Events are actions that trigger code to run, such as when a sprite is clicked or when the green flag is clicked to start the program.
 6. **Sprites and Backdrops**: Sprites are the characters or objects in your Scratch project, while backdrops are the backgrounds. You can create and customize both to enhance your projects.

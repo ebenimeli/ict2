@@ -1,4 +1,4 @@
-# Class 02 · What is an AI chatbot? {: .no-toc }
+# What is an AI chatbot? {: .no-toc }
 
 <img class="header" src="session.jpg"/>
 
