@@ -3,8 +3,9 @@ use_directory_urls: false
 nav:
   - "Presentation": "contents/unit00/presentation.md"
   - "Sessions":
-      - "01 · Presentation (Jan 7–9)": "contents/sessions/class01.md"
-      - "▶ 02 · What is a AI Chatbot (Jan 12–16)": "contents/sessions/class02.md"
+      - "01 · Presentation": "contents/sessions/class01.md"
+      - "▶ 02 · What is a AI Chatbot": "contents/sessions/class02.md"
+      - "03 · Programming: An Introduction": "contents/sessions/class03.md"
 #      - "03 · Programming Challenge (Jan 12–16)": "contents/sessions/class03.md"
 #  - "Unit 0. Introduction":
 #      - "0.1. Introduction to AI, Programming and Robotics":
