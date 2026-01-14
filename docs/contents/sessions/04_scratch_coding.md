@@ -81,3 +81,12 @@ Here is a simple chatbot program created in Scratch. The chatbot talks to the us
 - How to store user input in **variables**
 - How to change the **backdrop** using a variable
 - How to create a **simple chatbot** in Scratch
+
+## Evaluation Criteria
+
+| Ref. | Definition                                                                                                                                                                                        | CE  |
+| :--- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-- |
+| 2.1  | <span class="vb">Analyse</span> elementary problems meaningful to students <br/>through abstraction and modelling of reality.                                                                     | CE2 |
+| 2.3  | <span class="vb">Solve</span> elementary problems in a guided <br/>way using the necessary algorithms and data structures.                                                                        | CE2 |
+| 2.4  | <span class="vb">Program</span> simple applications in <br/>a guided way to solve elementary problems.                                                                                            | CE2 |
+| 4.1  | <span class="vb">Participate</span> actively in teamwork to develop digital and <br/>technological solutions, showing empathy and respecting <br/>assigned roles and the contributions of others. | CE4 |
