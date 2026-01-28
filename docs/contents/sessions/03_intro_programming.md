@@ -118,8 +118,8 @@ In this session, we have introduced the basics of programming, including what pr
 
 ## Assessment Criteria
 
-| Ref. | Description                                                                                                                                                                                        | CE  | T1  | T2  | T3  |
-| :--- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-- | :-: | :-: | :-: |
-| 2.1  | <span class="vb">Analyse</span> elementary problems that are meaningful<br/> to students through abstraction and modelling of reality.                                                             | CE2 | ✔️  | ✔️  | ✔️  |
-| 2.2  | <span class="vb">Analyse</span> and <span class="vb">validate</span> <br/>existing software applications.                                                                                          | CE2 | ✔️  | ✔️  | ✔️  |
-| 4.2  | <span class="vb">Analyse</span> critically the implications that<br/> programming and technologies have in the <br/>transformation of society, assessing their ethical <br/>and eco-social impact. | CE4 | ✔️  | ✔️  | ✔️  |
+| Ref | Description                                                                                                                                                                                        | CE  | T1  | T2  | T3  |
+| :-- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-- | :-: | :-: | :-: |
+| 2.1 | <span class="vb">Analyse</span> elementary problems that are meaningful<br/> to students through abstraction and modelling of reality.                                                             | CE2 | ✔️  | ✔️  | ✔️  |
+| 2.2 | <span class="vb">Analyse</span> and <span class="vb">validate</span> <br/>existing software applications.                                                                                          | CE2 | ✔️  | ✔️  | ✔️  |
+| 4.2 | <span class="vb">Analyse</span> critically the implications that<br/> programming and technologies have in the <br/>transformation of society, assessing their ethical <br/>and eco-social impact. | CE4 | ✔️  | ✔️  | ✔️  |
