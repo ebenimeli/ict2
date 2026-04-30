@@ -8,14 +8,22 @@ In this stage of the project, we will program the animation of both hands. When 
 
 1. Create the game project in Scratch on its **web version**: [scratch.mit.edu](https://scratch.mit.edu).
 2. First, choose a background for the game and insert text in the bottom right corner with the names of the programming team members (pair).
-3. Search the internet for 5 images of hands representing the different options for playing Rock, Paper, Scissors, Lizard, Spock. The images should have appropriate quality and resolution.
-4. Each of the 5 images should be in a separate PNG file with the following names: rock.png, paper.png, scissors.png, lizard.png, and spock.png. Modify the images if necessary to have a transparent background. You can remove the background using Scratch tools or other tools like GIMP or websites such as [www.remove.bg/es](https://www.remove.bg/es).
+3. Search the internet for images of Rock, Paper, Scissors, Lizard, Spock that you can use as visual references for the next step.
+4. Generate 5 images using a generative AI tool (image generator) representing the different options: Rock, Paper, Scissors, Lizard, and Spock.  
+   - The images should have good quality and clearly represent each option.  
+   - Use the reference images from the previous step to guide your prompts.  
+   - You must write down the prompt used to generate each image.  
+   - You will submit these prompts together with your project.  
+   - Save each image in a separate PNG file with the following names:  
+   rock.png, paper.png, scissors.png, lizard.png, and spock.png.  
+   - Modify the images if necessary to have a transparent background. You can remove the background using Scratch tools or other tools like GIMP or websites such as [www.remove.bg/es](https://www.remove.bg/es).
 5. Create 3 sprites in Scratch: one for the game referee (a person) and two for each hand (player A and B).
-6. Use the 5 prepared images to define 5 costumes for each hand in Scratch.
+6. Use the 5 generated images to define 5 costumes for each hand in Scratch.
 7. Program the necessary code in the referee and each hand so that, when the space key is pressed, the animation starts simultaneously in each hand and ends with a random option.
 8. Test that everything works correctly.
-9. Download the Scratch project file (.sb3) and rename it according to the last names and names of the members 9. 1 and 2 of the team: LastName1FirstName1_LastName2FirstName2.sb3 (for example: PérezJuan_LópezAna.sb3)
-10. Attach submit the .sb3 file here.
+9. Download the Scratch project file (.sb3) and rename it according to the last names and names of the members 1 and 2 of the team:   LastName1FirstName1_LastName2FirstName2.sb3 (for example: PérezJuan_LópezAna.sb3)
+10. Attach and submit the .sb3 file.
+11. Include a document (or section) with the 5 prompts used to generate the images.
 
 ## 1. Scratch
 
@@ -48,24 +56,27 @@ To add a new backdrop in Scratch:
    - If you're choosing from the library, click on the backdrop you want to use, and it will be added to your project.
    - If you're uploading your own image, select the image from your computer, and it will be added as a new backdrop.
 
-
 Adding backdrops allows you to create more engaging and visually appealing projects in Scratch, enhancing the overall experience for your users.
 
 # 3. Five images
 
 ![Google](img/rpsls_google.png)
 
-Search the internet for 5 images of hands representing the different options for playing Rock, Paper, Scissors, Lizard, Spock. The images should have appropriate quality and resolution.
+Search the internet for images of hands representing the different options for playing Rock, Paper, Scissors, Lizard, Spock. These images will be used as visual references.
 
-Each of the 5 images should be in a separate PNG file with the following names:
+Then, generate your own images using a generative AI tool.
+
+The images should have appropriate quality and clearly represent each option.
+
+You must write down the prompt used to generate each image. These prompts will be submitted together with your project.
+
+Each of the 5 images should be saved in a separate PNG file with the following names:
 
     rock.png
     paper.png
     scissors.png
     lizard.png
     spock.png
-
-If the objects Rock, Paper, Scissors, Lizard, and Spock appear together in a single image, you can make 5 cuts of the image using GIMP or another image editor.
 
 ## 4. Edit the pictures
 
@@ -88,7 +99,7 @@ In the context of a game like Rock Paper Scissors Lizard Spock, sprites represen
 
 ## 6. Five costumes: rock, paper, scissors, lizard, and Spock
 
-Use the 5 prepared images to define 5 costumes for each hand in Scratch.
+Use the 5 generated images to define 5 costumes for each hand in Scratch.
 
 ![Hand costumes](img/rpsls_costumes.png)
 
@@ -100,7 +111,7 @@ Program the necessary code in the referee and each hand so that, when the space 
 
 ### Exercise
 
-Use the blocksin the image to program the animation.
+Use the blocks in the image to program the animation.
 
 ![Hand animation puzzle](img/rpsls_animation_puzzle.png)
 
@@ -138,5 +149,3 @@ For example:
 ## 10. Turn in your project
 
 Attach and submit the .sb3 file. [This is how](https://support.microsoft.com/en-au/topic/turn-in-an-assignment-in-microsoft-teams-e25f383a-b747-4a0b-b6d5-a2845a52092b).
-
-
